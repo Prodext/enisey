@@ -1,0 +1,764 @@
+  /* Артём Прохоров------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Artem {
+    position: absolute;
+    left: 413px;
+    width: 500px; /* Задайте ширину контейнера */
+    height: 300px; /* Задайте высоту контейнера */
+   top: 320px;
+  }
+  .image {
+    position: relative;
+  
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text-overlay {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+bottom: 40px;
+  }
+    /* Артём Драничников------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .Dranichnikov {
+        position: absolute;
+        left: 733px;
+        width: 500px; /* Задайте ширину контейнера */
+        height: 300px; /* Задайте высоту контейнера */
+       bottom: 300px;
+       top: 320px;
+      }
+      .image1 {
+        position: relative;
+      
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .text-overlay1 {
+        font-size: 20px;
+        position: relative;
+        left: 40px;
+    bottom: 40px;
+      }
+      /* Платон Кузьменко------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+      .Platon {
+    top: 1px;
+        position: absolute;
+        top: 810px;
+        left: 413px;
+        width: 500px; /* Задайте ширину контейнера */
+        height: 300px; /* Задайте высоту контейнера */
+       bottom: 300px;
+      }
+      .image2 {
+        position: relative;
+      
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .text-overlay2 {
+        font-size: 20px;
+        position: relative;
+        left: 40px;
+    bottom: 40px;
+      }
+  /* Сергей Торгонский------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .SergeyTorgonski {
+    position: absolute;
+        top: 810px;
+        left: 733px;
+    width: 500px; /* Задайте ширину контейнера */
+    height: 300px; /* Задайте высоту контейнера */
+   
+  }
+  .image3 {
+    position: relative;
+  
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text-overlay3 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+bottom: 40px;
+  }
+
+    /* Дмитрий Иванов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .Dmitryivanov {
+        position: absolute;
+            top: 810px;
+            left: 1053px;
+        width: 500px; /* Задайте ширину контейнера */
+        height: 300px; /* Задайте высоту контейнера */
+       
+      }
+      .image4 {
+        position: relative;
+      
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .text-overlay4 {
+        font-size: 20px;
+        position: relative;
+        left: 60px;
+    bottom: 40px;
+      }
+   
+      
+    /*  Павел Плешивцев------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .PavelPleshivchev {
+        position: absolute;
+            top: 1160px;
+            left: 413px;
+        width: 500px; /* Задайте ширину контейнера */
+        height: 300px; /* Задайте высоту контейнера */
+       
+      }
+      .image5 {
+        position: relative;
+      
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .text-overlay5 {
+        font-size: 20px;
+        position: relative;
+        left: 60px;
+    bottom: 40px;
+      }
+   
+          /*  Егор Петров------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .EgorPetrov {
+        position: absolute;
+            top: 1160px;
+            left: 733px;
+        width: 500px; /* Задайте ширину контейнера */
+        height: 300px; /* Задайте высоту контейнера */
+       
+      }
+      .image6 {
+        position: relative;
+      
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .text-overlay6 {
+        font-size: 20px;
+        position: relative;
+        left: 60px;
+    bottom: 40px;
+      }
+       /* Егор Даршков------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+       .Egordashkov {
+        position: absolute;
+            top: 1160px;
+            left: 1053px;
+        width: 500px; /* Задайте ширину контейнера */
+        height: 300px; /* Задайте высоту контейнера */
+       
+      }
+      .image7 {
+        position: relative;
+      
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .text-overlay7 {
+        font-size: 20px;
+        position: relative;
+        left: 60px;
+    bottom: 40px;
+      }
+        /* Егор Щётинин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+        .Egorshetinin {
+            position: absolute;
+                top: 1510px;
+                left: 413px;
+            width: 500px; /* Задайте ширину контейнера */
+            height: 300px; /* Задайте высоту контейнера */
+           
+          }
+          .image8 {
+            position: relative;
+          
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+          }
+        
+          .text-overlay8 {
+            font-size: 20px;
+            position: relative;
+            left: 60px;
+        bottom: 40px;
+          }
+/* Николай Коньков------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.NikolayKonkov {
+position: absolute;
+top: 1510px;
+left: 733px;
+  width: 500px; /* Задайте ширину контейнера */
+ height: 300px; /* Задайте высоту контейнера */
+               
+ }
+ .image9 {
+ position: relative;
+            
+width: 50%;
+height: 100%;
+ object-fit: cover;
+  }
+            
+ .text-overlay9 {
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  bottom: 40px;
+ }
+ 
+  /* Юрий бондаренко------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.YuriBondarenko {
+  position: absolute;
+  top: 1510px;
+  left: 1053px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image10 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay10 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Иван Шевцов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.IvanShevcov {
+  position: absolute;
+  top: 1860px;
+  left: 413px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image11 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay11 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Илья Лопатин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.IlyaLopatin{
+  position: absolute;
+  top: 1860px;
+  left: 733px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image12 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay12 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Роман Булгаков------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.RomanBulgakov{
+  position: absolute;
+  top: 1860px;
+  left: 1053px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image13 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay13 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Вячеслав Нелюбин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+   .Vnelubin{
+    position: absolute;
+    top: 2210px;
+    left: 413px;
+      width: 500px; /* Задайте ширину контейнера */
+     height: 300px; /* Задайте высоту контейнера */
+                   
+     }
+     .image14 {
+     position: relative;
+                
+    width: 50%;
+    height: 100%;
+     object-fit: cover;
+      }
+                
+     .text-overlay14 {
+      font-size: 20px;
+      position: relative;
+      left: 60px;
+      bottom: 40px;
+     }   
+      /* Кирилл Коломейцев------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+   .Kirillkolom{
+    position: absolute;
+    top: 2210px;
+    left: 733px;
+      width: 500px; /* Задайте ширину контейнера */
+     height: 300px; /* Задайте высоту контейнера */
+                   
+     }
+     .image15 {
+     position: relative;
+                
+    width: 50%;
+    height: 100%;
+     object-fit: cover;
+      }
+                
+     .text-overlay15 {
+      font-size: 20px;
+      position: relative;
+      left: 60px;
+      bottom: 40px;
+     }   
+        /* Дмитрий Барбаков------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+   .DmitryBarbakov{
+    position: absolute;
+    top: 2210px;
+    left: 1053px;
+      width: 500px; /* Задайте ширину контейнера */
+     height: 300px; /* Задайте высоту контейнера */
+                   
+     }
+     .image16 {
+     position: relative;
+                
+    width: 50%;
+    height: 100%;
+     object-fit: cover;
+      }
+                
+     .text-overlay16 {
+      font-size: 20px;
+      position: relative;
+      left: 60px;
+      bottom: 40px;
+     }   
+/* Сергей Ломанов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.SergeiLomanov{
+  position: absolute;
+  top: 2560px;
+  left: 413px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image17 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay17 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Артём Ахматезянов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.ArtemAhmatezyan{
+  position: absolute;
+  top: 2560px;
+  left: 733px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image18 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay18 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Игорь Серёдкин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.IgorSeredkin{
+  position: absolute;
+  top: 2560px;
+  left: 1053px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image19 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay19 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Алексей Фортус------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.AlekseyFortus{
+  position: absolute;
+  top: 3020px;
+  left: 413px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image20 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay20 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Михаил Чечеткин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.MixailChecetkin{
+  position: absolute;
+  top: 3020px;
+  left: 733px; 
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image21 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay21 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Сергей Ломанов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.SergeiLomanov1{
+  position: absolute;
+  top: 3020px;
+  left: 1053px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image22 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay22 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Алексей Щеглов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.AlekseySheglov{
+  position: absolute;
+  top: 3370px;
+  left:  413px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image23 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay23 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Иван Щеглов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.IvanSheglov{
+  position: absolute;
+  top: 3370px;
+  left:  733px;  
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image24 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay24 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Виталий Савлук------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.VitalySavluk{
+  position: absolute;
+  top: 3370px;
+  left:  1053px; 
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image25 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay25 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Вячеслав Муртазин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.VyacheslavM{
+  position: absolute;
+  top: 3720px;
+  left:  413px; 
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image26 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay26 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Игорь Ануфиев------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.IgorAnufiev{
+  position: absolute;
+  top: 3720px;
+  left:  733px; 
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image27 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay27 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+/* Василий Пашенных------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.VasiliyPashenix{
+  position: absolute;
+  top: 3720px;
+  left:  1053px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image28 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay28 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Вячеслав Туганов------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.VyacheslavTuganov{
+  position: absolute;
+  top: 4070px;
+  left:  413px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image29 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay29 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Антон Савлук------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.AntonSavluk{
+  position: absolute;
+  top: 4070px;
+  left:  733px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image30 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay30 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Юрий Дудник------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.YuriDudnik{
+  position: absolute;
+  top: 4070px;
+  left:  1053px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image31 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay31 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   
+   /* Антон Сорокин------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.AntonSorokin{
+  position: absolute;
+  top: 4450px;
+  left:  413px;
+    width: 500px; /* Задайте ширину контейнера */
+   height: 300px; /* Задайте высоту контейнера */
+                 
+   }
+   .image32 {
+   position: relative;
+              
+  width: 50%;
+  height: 100%;
+   object-fit: cover;
+    }
+              
+   .text-overlay32 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+   }   

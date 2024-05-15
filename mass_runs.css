@@ -1,0 +1,395 @@
+
+.textpartner-container{
+    position: absolute;
+    z-index: 100;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    top: 2550px;
+    left: 895px;
+}
+.Enisey1{
+    z-index: 140;
+    position: absolute;
+   
+    top: 2860px;
+    width: 100px;
+    height: 60px;
+  }
+.black-square {
+    position: absolute;
+    top: 2500px;
+
+    width: 2000px;
+    height: 1000px;
+    background-color: black;
+  }
+
+
+  .white1-line{
+    z-index: 150;
+    position: absolute;
+    top: 2800px;
+    color: white ;
+    border-top: 1px solid rgb(255, 255, 255); /* Толщина линии, стиль и цвет */
+    width: 100%; /* Ширина линии */
+    margin: 0 auto; /* Выравнивание по центру */
+    opacity: 0.6; /* Степень прозрачности */
+  }
+
+
+  .TextDown1{
+  color: white;
+    position: absolute;
+    top: 2700px;
+    font-size: 8px;
+  }
+  .TextDown2{
+    color: white;
+      position: absolute;
+      top: 2720px;
+      font-size: 8px;
+    }
+    .TextDown3{
+        color: white;
+          position: absolute;
+          top: 2740px;
+          font-size: 8px;
+        }
+        .TextDown4{
+            color: white;
+              position: absolute;
+              top: 2740px;
+              left: 1000px;
+              font-size: 8px;
+            }
+ .TextDown5{
+color: white;
+position: absolute;
+top: 2740px;
+left: 1100px;
+font-size: 8px;
+}
+.TextDown6{
+    color: white;
+    position: absolute;
+    top: 2740px;
+    left: 1200px;
+    font-size: 8px;
+    }
+    .TextDown7{
+        color: white;
+        position: absolute;
+        top: 2740px;
+        left: 1300px;
+        font-size: 8px;
+        }    
+        .TextDown8{
+            color: white;
+            position: absolute;
+            top: 2780px;
+            left: 1100px;
+            font-size: 8px;
+            }        
+            .TextDown9{
+                color: white;
+                position: absolute;
+                top: 2800px;
+                left: 1100px;
+                font-size: 8px;
+                }    
+                .TextDown10{
+                    color: white;
+                    position: absolute;
+                    top: 2820px;
+                    left: 1100px;
+                    font-size: 8px;
+                    }  
+                    .TextDown11{
+                        color: white;
+                        position: absolute;
+                        top: 2840px;
+                        left: 1100px;
+                        font-size: 8px;
+                        }       
+                        .TextDown12{
+                            color: white;
+                            position: absolute;
+                            top: 2860px;
+                            left: 1100px;
+                            font-size: 8px;
+                            }    
+                            .TextDown13{
+                                color: white;
+                                position: absolute;
+                                top: 2880px;
+                                left: 1100px;
+                                font-size: 8px;
+                                }   
+                                .TextDown14{
+                                    color: white;
+                                    position: absolute;
+                                    top: 2900px;
+                                    left: 1100px;
+                                    font-size: 8px;
+                                    }   
+.TextDown15{
+            color: white;
+            position: absolute;
+            top: 2780px;
+            left: 1200px;
+            font-size: 8px;
+            }            
+            .TextDown16{
+                color: white;
+                position: absolute;
+                top: 2800px;
+                left: 1200px;
+                font-size: 8px;
+                }      
+.AREAPHOTO{
+    position: absolute;
+    left: 400px;
+    top: 70px;
+}
+.TextOsnova{
+    position: absolute;
+    top: 800px;
+    font-size: 8px;
+    left: 400px ;
+}
+
+.TextOsnova1 {
+    position: absolute;
+    width: 1200px; /* Ширина контейнера */
+    top: 850px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 400px ;
+    font-size: 20px;
+  }
+  .TextOsnova2 {
+    position: absolute;
+    width: 1200px; /* Ширина контейнера */
+    top: 900px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 400px ;
+    font-size: 20px;
+  }
+  .TextOsnova3 {
+    position: absolute;
+    width: 1200px; /* Ширина контейнера */
+    top: 950px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 400px ;
+    font-size: 20px;
+  }
+  .TextOsnova4 {
+    position: absolute;
+    width: 1200px; /* Ширина контейнера */
+    top: 1000px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 400px ;
+    font-size: 20px;
+  }
+  .TextOsnova5 {
+    z-index: 105;
+    position: absolute;
+    width: 1200px; /* Ширина контейнера */
+    top: 1050px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 400px ;
+    font-size: 20px;
+  }
+.AREAPHOTO1{
+    position: absolute;
+    left: 750px;
+    top: 1100px;
+    max-width: 500px;
+    max-height: 500px;
+}
+.AREAPHOTO2{
+    position: absolute;
+    left: 750px;
+    top: 1500px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+.TextDown1{
+    color: white;
+      position: absolute;
+      top: 2940px;
+      font-size: 7px;
+      opacity: 0.6; /* Степень прозрачности */
+    }
+  .TextDown17{
+    color: white;
+    position: absolute;
+    top: 2960px;
+    font-size: 7px;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  .TextDown18{
+    color: white;
+    position: absolute;
+    top: 2980px;
+    font-size: 7px;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  
+  
+    .TextDown2{
+      color: white;
+        position: absolute;
+        top: 3020px;
+        font-size: 7px;
+        opacity: 0.6; /* Степень прозрачности */
+      }
+      .TextDown3{
+          color: white;
+            position: absolute;
+            top: 3040px;
+            font-size: 7px;
+            opacity: 0.6; /* Степень прозрачности */
+          }
+          .TextDown4{
+              color: white;
+                position: absolute;
+                top: 2835px;
+                left: 900px;
+                font-size: 12px;
+                cursor: pointer;
+                opacity: 0.6; /* Степень прозрачности */
+              }
+              .TextDown4:hover {color: #ff0000;animation: 5s }
+   .TextDown5{
+    color: white;
+    position: absolute;
+    top: 2835px;
+    left: 1100px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  .TextDown5:hover {color: #ff0000;animation: 5s }
+  .TextDown6{
+    color: white;
+    position: absolute;
+    top: 2835px;
+    left: 1300px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.6; /* Степень прозрачности */
+  
+      }
+      .TextDown6:hover {color: #ff0000;animation: 5s }
+      .TextDown7{
+        color: white;
+        position: absolute;
+        top: 2835px;
+        left: 1500px;
+        font-size: 12px;
+        cursor: pointer;
+        opacity: 0.6; /* Степень прозрачности */
+          }    
+          .TextDown7:hover {color: #ff0000;animation: 5s }
+          .TextDown8{
+              color: white;
+              position: absolute;
+              top: 2900px;
+              left: 1100px;
+              font-size: 8px;
+              cursor: pointer;
+              opacity: 0.6; /* Степень прозрачности */
+              }        
+              .TextDown8:hover {color: #ff0000;animation: 5s }
+              .TextDown9{
+                  color: white;
+                  position: absolute;
+                  top: 2925px;
+                  left: 1100px;
+                  font-size: 8px;
+                  cursor: pointer;
+                  opacity: 0.6; /* Степень прозрачности */
+                  }    
+                  .TextDown9:hover {color: #ff0000;animation: 5s }
+                  .TextDown10{
+                      color: white;
+                      position: absolute;
+                      top: 2950px;
+                      left: 1100px;
+                      font-size: 8px;
+                      cursor: pointer;
+                      opacity: 0.6; /* Степень прозрачности */
+                      }  
+                      .TextDown10:hover {color: #ff0000;animation: 5s }
+                      .TextDown11{
+                          color: white;
+                          position: absolute;
+                          top: 2975px;
+                          left: 1100px;
+                          font-size: 8px;
+                          cursor: pointer;
+                          opacity: 0.6; /* Степень прозрачности */
+                          }     
+                          .TextDown11:hover {color: #ff0000;animation: 5s } 
+                          .TextDown12{
+                              color: white;
+                              position: absolute;
+                              top: 3000px;
+                              left: 1100px;
+                              font-size: 8px;
+                              cursor: pointer;
+                              opacity: 0.6; /* Степень прозрачности */
+                              }    
+                              .TextDown12:hover {color: #ff0000;animation: 5s }
+                              .TextDown13{
+                                  color: white;
+                                  position: absolute;
+                                  top: 3025px;
+                                  left: 1100px;
+                                  font-size: 8px;
+                                  cursor: pointer;
+                                  opacity: 0.6; /* Степень прозрачности */
+                                  }   
+                                  .TextDown13:hover {color: #ff0000;animation: 5s }
+                                  .TextDown14{
+                                      color: white;
+                                      position: absolute;
+                                      top: 3050px;
+                                      left: 1100px;
+                                      font-size: 8px;
+                                      cursor: pointer;
+                                      opacity: 0.6; /* Степень прозрачности */
+                                      }   
+                                      .TextDown14:hover {color: #ff0000;animation: 5s }
+  .TextDown15{
+    color: white;
+    position: absolute;
+    top: 2898px;
+    left: 1300px;
+    font-size: 8px;
+    cursor: pointer;
+    opacity: 0.6; /* Степень прозрачности */
+              }          
+              .TextDown15:hover {color: #ff0000;animation: 5s }  
+              .TextDown16{
+                color: white;
+                position: absolute;
+                top: 2925px;
+                left: 1300px;
+                font-size: 8px;
+                cursor: pointer;
+                opacity: 0.6; /* Степень прозрачности */
+                  }       
+  
+  .TextDown16:hover {color: #ff0000;animation: 5s }
+  .partner1{
+    z-index: 102;
+    position: absolute;
+    top: 2650px;
+    left: 800px;
+    width: 15%;
+    height: 10%;
+  }
+  

@@ -1,0 +1,333 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 14px;  /* "Эта строчка отвечает за размер шрифта в данном случае слова Медиа" */
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* "до этой надписи вроде как изменение основы страницы" */
+.sidebar {
+    width: 170px; /* "Эта строчка отвечает за дальность появления меню слева" */
+    position: relative;
+    z-index: 151;
+    
+    left: 0;
+    height: 35%;
+    background: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    border-radius: 15px; /* Закругляем все углы */
+    border-top-left-radius: 0; /* Убираем закругление левого угла */
+    border: 1px solid rgb(0, 0, 0); /* Толщина, стиль и цвет контура */
+    border-bottom-left-radius: 0
+
+}
+.sidebar a {
+    padding: 3px 8px 10px 10px;/* "Эта строчка отвечает за междустрочие текста а последнее за отступ от левой рамки" */
+    text-decoration: none;
+    font-size: 20px; /* "Эта размер текста в левом меню" */
+    color: #000000;
+    display: block;
+    transition: 0.3s; /* "Это время ухода левого меню" */
+    position: relative;/* "из за этой сдвинулся вниз текст" */
+    border: none;
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+
+}
+/* Style the active link (highlight it) */
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+
+}
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px ) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+
+}
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #ffffff;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 150;
+
+
+    /*position: relative; /* Устанавливаем позиционирование для родительского элемента */
+
+
+}
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+
+}
+
+/* ниже кнопки вк и ютуб---------------------------------------------------------------------------------------------------------------------------------ниже кнопки вк и ютуб */
+
+
+
+
+
+.social-buttons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.social-buttons a {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    margin-bottom: -5px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.social-buttons a:hover {
+    opacity: 1;
+}
+
+.youtube-button {
+    background-image: url('Enisey.png'); /* Замените на ваш URL-адрес */
+}
+
+.vk-button {
+    background-image: url('Vk.png'); /* Замените на ваш URL-адрес */
+}
+
+.sidebar a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.image-link {
+    position: fixed;
+    display: inline-block;
+    width: 100%; /* Установите ширину контейнера */
+    z-index: 500;
+}
+
+.image-link img {
+    position: fixed;
+    top: 10px;
+    left: 2px;
+    width: 80px; /* Установите ширину и высоту картинки */
+    height: 50px;
+    text-decoration: none;
+}
+
+.image-link a {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    display: inline-block;
+}
+
+/* ПОИСКОВАЯ СТРОКА------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.search-box{
+
+    font-family: 'Lato' !important;
+    top: 10px;
+    left: 1845px;/* это перемещает поисковую кнопку */
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+}
+.input-search{
+    position: absolute;
+    right: 100%;
+    height: 20px; /* изменять это */
+    width: 0px;
+    border-style: none;
+    padding: 10px;
+    font-size: 38px;/* Чтобы поднять слово поиск изменить */
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #ffffff;
+    color:#000000;
+    z-index: 1;
+  }
+  .input-search::placeholder{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px; /* изменять это */
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#000000 ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(0, 0, 0, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(0, 0, 0, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+
+/* КНОПКА БИЛЕТЫ--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.centered-button {
+    font-family: sans-serif;
+    position: absolute;
+    top: 12px;
+    left: 985px;
+    padding: 10px; /* Уменьшаем отступы внутри */
+    margin: 0px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}/* КНОПКА Магазин.centered-button:hover {background-color: #0056b3;}--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.centered-button:hover {color: #0056b3;animation: 5s }
+
+
+/* КНОПКА Магазин--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.magazin-button {
+    position: absolute;
+    top: 12px;
+    left: 840px;
+    padding: 10px; /* Уменьшаем отступы внутри */
+    margin: 0px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.magazin-button:hover {color: #0056b3;animation: 5s }
+
+/* КНОПКА Тур--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.tour-button {
+    position: absolute;
+    top: 12px;
+    left: 935px;
+    padding: 10px; /* Уменьшаем отступы внутри */
+    margin: 0px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tour-button:hover {color: #0056b3;animation: 5s }
+/* БЕЛАЯ ЛИНИЯ ВВЕРХУ--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.white-line {
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+
+/* Разворот кнопки в sidebar--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.dropdown-button{
+    border: none;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    transition: transform 1.5s; /* Добавляем анимацию длительностью 5 секунд */
+}
+.dropdownContent{
+    transition: transform 1s ease; /* Добавляем анимацию */
+}
+.rotate {
+    transform: rotate(180deg); /* Вращаем кнопку на 180 градусов */
+}
+.dropdown-content{
+    transition: max-height 0.5s ease-out;
+}
+/* ТЕКСТ ВНИЗУ ОТ ЛИНИИ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.downtext-container h1 {
+    display: inline; /* Элементы h1 будут отображаться в строку */
+    margin: 0; /* Убираем отступы, чтобы текст не был слишком близко к краям */
+}
+.downtext-container a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #333;
+}
+
+/* Кнопка RUS ENG------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#changeTextButton {
+    position: absolute;
+    top: 12px;
+    left: 1840px;
+    padding: 10px; /* Уменьшаем отступы внутри */
+    margin: 0px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }

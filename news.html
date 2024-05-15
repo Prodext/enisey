@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с вкладками</title>
+    <link href="https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap" rel="stylesheet">
+    <link href="test2.css" rel="stylesheet">
+</head>
+<!-- Местоположение текста весь текст настраивается здесь -->
+<style>
+    .text-container {
+        position: absolute;
+        top: 500px;
+        left: 500px;
+        padding: 5px; /* Уменьшаем отступы внутри */
+        margin: 5px; /* Уменьшаем отступы вокруг */
+    }
+</style>
+<body>
+<div id="mySidebar" class="sidebar">
+    <a href="home.html"><img src="Главная.png" alt="Home">Главная</a>
+    <div class="dropdown">
+        <a href="club.html"><img src="Клуб.jpg" alt="mass_runs">Клуб <button class="dropdown-button" id="toggleButton">﹀ </button> <!-- Добавляем кнопку "a" --> </a>
+        <div id="dropdownContent" class="dropdown-content"> <!-- Заменяем id на "dropdownContent" -->
+            <a href="club-attr.html"> Атрибутика клуба</a>
+            <a href="club-prog.html">Программки к матчам</a>
+            <a href="club-enisey.html">Енисей</a>
+            <a href="club-enisey2.html">Енисей-2</a>
+            <a href="club-history.html">История</a>
+            <a href="club-achievements.html">Достижения</a>
+            <a href="club-veterans.html">Ветераны</a>
+            <a href="club-symbolism.html">Символика и гимн</a>
+            <a href="club-wall.html">Школа вратарей</a>
+            <a href="club-purchases.html">Закупки</a>
+        </div>
+    </div>
+    <a href="competitions.html"><img src="Турниры.png" alt="Турниры">Турниры</a>
+    <a href="school.html"><img src="Школа.png" alt="School">Школа</a>
+    <a href="mass_runs.html"><img src="Школа.png" alt="mass_runs">Катание</a>
+    <div class="dropdown">
+        <a href="media.html"><img src="Медиа.png" alt="Media">Медиа <button class="dropdown-button" id="toggleMediaButton">﹀</button></a>
+
+        <div id="mediaDropdownContent" class="dropdown-content">
+            <a href="media-photogallery.html">Фотогалерея</a>
+            <a href="media-videogallery.html">Галерея видео</a>
+        </div>
+    </div>
+    <a href="purchases.html"><img src="Закупки.png" alt="Purchases">Закупки</a>
+    <div class="dropdown">
+        <a href="contacts.html"><img src="Контакты.png" alt="contacts">Контакты <button class="dropdown-button" id="toggleContactsButton">﹀</button></a>
+        <div id="contactsDropdownContent" class="dropdown-content">
+            <a href="contacts-qa.html">Вопрос-ответ</a>
+        </div>
+    </div>
+</div>
+<div class="text-container">
+    <h1>NEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWSNEWS</h1>
+    <!-- Контент для главной страницы -->
+</div>
+<!-- Это поисковая строка--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="search-container">
+    <input type="text" class="search-input" placeholder="Search...">
+    <button class="search-button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+    </button>
+</div>
+<!-- Это кнопки вк и ютуб--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="social-buttons">
+    <a href="https://www.youtube.com/channel/UC1Pm3WxyUtx3IAkhPN1zAIg" target="_blank" class="youtube-button"></a>
+    <a href="https://vk.com/hcenisey1934" target="_blank" class="vk-button"></a>
+</div>
+<!-- Это кнопки вк и ютуб--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="social-buttons">
+    <a href="https://www.youtube.com/channel/UC1Pm3WxyUtx3IAkhPN1zAIg" target="_blank" class="youtube-button"></a>
+    <a href="https://vk.com/hcenisey1934" target="_blank" class="vk-button"></a>
+</div>
+<div class="white-line"></div>
+<button class="centered-button" onclick="redirectToTicketsPage()">Билеты</button>
+<button class="magazin-button" onclick="redirectToTicketsPage1()">Магазин</button>
+<button class="tour-button" onclick="redirectToTicketsPage2()">Тур</button>
+<script>
+    function redirectToTicketsPage() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'tickets.html';
+    }
+    function redirectToTicketsPage1() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'shop.html';
+    }
+    function redirectToTicketsPage2() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'tour.html';
+    }
+    // Функция для переключения состояния dropdown-content
+    function toggleDropdown() {
+        event.preventDefault();
+        var dropdownContent = document.getElementById("dropdownContent");
+        var toggleButton = document.getElementById('toggleButton');
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            toggleButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            dropdownContent.style.display = "block";
+            toggleButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+
+    // Привязываем функцию к кнопке "a"
+    document.getElementById("toggleButton").addEventListener("click", toggleDropdown);
+
+</script>
+
+
+<script >
+    function toggleDropdown1() {
+        event.preventDefault();
+        var mediaDropdownContent = document.getElementById('mediaDropdownContent');
+        var toggleMediaButton = document.getElementById('toggleMediaButton');
+        if (mediaDropdownContent.style.display === 'block') {
+            mediaDropdownContent.style.display = 'none';
+            toggleMediaButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            mediaDropdownContent.style.display = 'block';
+            toggleMediaButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+    document.getElementById("toggleMediaButton").addEventListener("click", toggleDropdown1);
+</script>
+<script>
+    function toggleDropdown2() {
+        event.preventDefault();
+        var contactsDropdownContent = document.getElementById('contactsDropdownContent');
+        var toggleContactsButton = document.getElementById('toggleContactsButton');
+        if (contactsDropdownContent.style.display === 'block') {
+            contactsDropdownContent.style.display = 'none';
+            toggleContactsButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            contactsDropdownContent.style.display = 'block';
+            toggleContactsButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+    document.getElementById("toggleContactsButton").addEventListener("click", toggleDropdown2);
+</script>
+</body>
+</html>

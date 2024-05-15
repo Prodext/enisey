@@ -1,0 +1,432 @@
+.text-box {
+
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    padding: 5px; /* Уменьшаем отступы внутри */
+    margin: 5px; /* Уменьшаем отступы вокруг */
+    width: 400px;
+    height: 200px;
+    background-color: #68646444;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+  .text-box1 {
+
+    position: absolute;
+    top: 220px;
+    left: 760px;
+    padding: 5px; /* Уменьшаем отступы внутри */
+    margin: 5px; /* Уменьшаем отступы вокруг */
+    width: 400px;
+    height: 200px;
+    background-color: #68646444;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+  .text-box2 {
+
+    position: absolute;
+    top: 220px;
+    left: 1190px;
+    padding: 5px; /* Уменьшаем отступы внутри */
+    margin: 5px; /* Уменьшаем отступы вокруг */
+    width: 400px;
+    height: 200px;
+    background-color: #68646444;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+  .text-box3 {
+
+    position: absolute;
+    top: 450px;
+    left: 330px;
+    padding: 5px; /* Уменьшаем отступы внутри */
+    margin: 5px; /* Уменьшаем отступы вокруг */
+    width: 400px;
+    height: 200px;
+    background-color: #68646444;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+  .TextContact{
+    position: absolute;
+    left: 333px;
+    bottom: 750px;
+  }
+  .Press{
+    position: absolute;
+    font-size: 8px; 
+    left: 370px;
+  bottom: 670px;
+  }
+  .number1{
+    position: absolute;
+    font-size: 8px; 
+    left: 368px;
+  bottom: 640px;
+  }
+  .mail1{
+    position: absolute;
+    font-size: 8px; 
+    left: 370px;
+  bottom: 610px;
+  }
+
+  .buhgalteria{
+    position: absolute;
+    font-size: 8px; 
+    left: 800px;
+  bottom: 670px;
+  }
+  .number2{
+    position: absolute;
+    font-size: 8px; 
+    left: 799px;
+  bottom: 640px;
+  }
+  .mail2{
+    position: absolute;
+    font-size: 8px; 
+    left: 800px;
+  bottom: 610px;
+  }
+  .UROTDEL{
+    position: absolute;
+    font-size: 8px; 
+    left: 1230px;
+  bottom: 670px;
+  }
+  .number3{
+    position: absolute;
+    font-size: 8px; 
+    left: 1230px;
+  bottom: 640px;
+  }
+  .SpotrOtdel{
+    position: absolute;
+    font-size: 8px; 
+    left: 370px;
+  bottom: 440px;
+  }
+  .number4{
+    position: absolute;
+    font-size: 8px; 
+    left: 368px;
+  bottom: 410px;
+  }
+
+  .containermap{
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .iframe{
+    position: absolute;
+    width: 80vw;
+    height: 120vh;
+  }
+
+  .black-square {
+    position: absolute;
+    top: 2500px;
+    width: 1900px;
+    height: 1000px;
+    background-color: black;
+  }
+  .white1-line{
+    
+    position: absolute;
+    top: 2800px;
+    color: white ;
+    border-top: 1px solid rgb(255, 255, 255); /* Толщина линии, стиль и цвет */
+    width: 100%; /* Ширина линии */
+    margin: 0 auto; /* Выравнивание по центру */
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  .partner1{
+    z-index: 102;
+    position: absolute;
+    top: 2650px;
+    left: 800px;
+    width: 15%;
+    height: 10%;
+  }
+  .textpartner-container{
+    position: absolute;
+    z-index: 100;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    top: 2550px;
+    left: 895px;
+}
+
+.partner1{
+  z-index: 102;
+  position: absolute;
+  top: 2650px;
+  left: 800px;
+  width: 15%;
+  height: 10%;
+}
+
+
+
+  .TextDown1{
+  color: white;
+    position: absolute;
+    top: 2940px;
+    font-size: 7px;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+.TextDown17{
+  color: white;
+  position: absolute;
+  top: 2960px;
+  font-size: 7px;
+  opacity: 0.6; /* Степень прозрачности */
+}
+.TextDown18{
+  color: white;
+  position: absolute;
+  top: 2980px;
+  font-size: 7px;
+  opacity: 0.6; /* Степень прозрачности */
+}
+
+
+  .TextDown2{
+    color: white;
+      position: absolute;
+      top: 3020px;
+      font-size: 7px;
+      opacity: 0.6; /* Степень прозрачности */
+    }
+    .TextDown3{
+        color: white;
+          position: absolute;
+          top: 3040px;
+          font-size: 7px;
+          opacity: 0.6; /* Степень прозрачности */
+        }
+        .TextDown4{
+            color: white;
+              position: absolute;
+              top: 2835px;
+              left: 900px;
+              font-size: 12px;
+              cursor: pointer;
+              opacity: 0.6; /* Степень прозрачности */
+    
+            }
+            .TextDown4:hover {color: #ff0000;animation: 5s }
+ .TextDown5{
+  color: white;
+  position: absolute;
+  top: 2835px;
+  left: 1100px;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.6; /* Степень прозрачности */
+}
+.TextDown5:hover {color: #ff0000;animation: 5s }
+.TextDown6{
+  color: white;
+  position: absolute;
+  top: 2835px;
+  left: 1300px;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.6; /* Степень прозрачности */
+
+    }
+    .TextDown6:hover {color: #ff0000;animation: 5s }
+    .TextDown7{
+      color: white;
+      position: absolute;
+      top: 2835px;
+      left: 1500px;
+      font-size: 12px;
+      cursor: pointer;
+      opacity: 0.6; /* Степень прозрачности */
+        }    
+        .TextDown7:hover {color: #ff0000;animation: 5s }
+        .TextDown8{
+            color: white;
+            position: absolute;
+            top: 2900px;
+            left: 1100px;
+            font-size: 8px;
+            cursor: pointer;
+            opacity: 0.6; /* Степень прозрачности */
+            }        
+            .TextDown8:hover {color: #ff0000;animation: 5s }
+            .TextDown9{
+                color: white;
+                position: absolute;
+                top: 2925px;
+                left: 1100px;
+                font-size: 8px;
+                cursor: pointer;
+                opacity: 0.6; /* Степень прозрачности */
+                }    
+                .TextDown9:hover {color: #ff0000;animation: 5s }
+                .TextDown10{
+                    color: white;
+                    position: absolute;
+                    top: 2950px;
+                    left: 1100px;
+                    font-size: 8px;
+                    cursor: pointer;
+                    opacity: 0.6; /* Степень прозрачности */
+                    }  
+                    .TextDown10:hover {color: #ff0000;animation: 5s }
+                    .TextDown11{
+                        color: white;
+                        position: absolute;
+                        top: 2975px;
+                        left: 1100px;
+                        font-size: 8px;
+                        cursor: pointer;
+                        opacity: 0.6; /* Степень прозрачности */
+                        }     
+                        .TextDown11:hover {color: #ff0000;animation: 5s } 
+                        .TextDown12{
+                            color: white;
+                            position: absolute;
+                            top: 3000px;
+                            left: 1100px;
+                            font-size: 8px;
+                            cursor: pointer;
+                            opacity: 0.6; /* Степень прозрачности */
+                            }    
+                            .TextDown12:hover {color: #ff0000;animation: 5s }
+                            .TextDown13{
+                                color: white;
+                                position: absolute;
+                                top: 3025px;
+                                left: 1100px;
+                                font-size: 8px;
+                                cursor: pointer;
+                                opacity: 0.6; /* Степень прозрачности */
+                                }   
+                                .TextDown13:hover {color: #ff0000;animation: 5s }
+                                .TextDown14{
+                                    color: white;
+                                    position: absolute;
+                                    top: 3050px;
+                                    left: 1100px;
+                                    font-size: 8px;
+                                    cursor: pointer;
+                                    opacity: 0.6; /* Степень прозрачности */
+                                    }   
+                                    .TextDown14:hover {color: #ff0000;animation: 5s }
+.TextDown15{
+  color: white;
+  position: absolute;
+  top: 2898px;
+  left: 1300px;
+  font-size: 8px;
+  cursor: pointer;
+  opacity: 0.6; /* Степень прозрачности */
+            }          
+            .TextDown15:hover {color: #ff0000;animation: 5s }  
+            .TextDown16{
+              color: white;
+              position: absolute;
+              top: 2925px;
+              left: 1300px;
+              font-size: 8px;
+              cursor: pointer;
+              opacity: 0.6; /* Степень прозрачности */
+                }       
+
+.TextDown16:hover {color: #ff0000;animation: 5s }
+
+.Enisey{
+  z-index: 140;
+  position: absolute;
+ 
+  top: 2860px;
+  width: 100px;
+  height: 60px;
+}
+.Enisey1{
+  z-index: 140;
+  position: absolute;
+ left: 700px;
+  top: 1250px;
+  width: 150px;
+  height: 90px;
+}
+.Baikal1{
+  z-index: 140;
+  position: absolute;
+ left: 1150px;
+  top: 1250px;
+  width: 150px;
+  height: 90px;
+}
+
+
+
+.blue-button {
+  position: absolute;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Синий цвет фона */
+  color: white; /* Белый цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  border-radius: 38px; /* Скругленные углы */
+  transition: background-color 0.3s ease; /* Анимация перехода цвета фона */
+  top: 1350px;
+  left: 930px;
+}
+
+.blue-button:hover {
+  background-color: #0056b3; /* Цвет при наведении */
+}
+
+.blue-button:active {
+  background-color: #003080; /* Цвет при нажатии */
+}
+.Enisey{
+  z-index: 140;
+  position: absolute;
+ 
+  top: 2860px;
+  width: 100px;
+  height: 60px;
+}

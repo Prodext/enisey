@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;  /* "Эта строчка отвечает за размер шрифта в данном случае слова Медиа" */
+    background-color: #000;
+    background-image: url("IMG_9274.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* "до этой надписи вроде как изменение основы страницы" */
+.sidebar {
+    width: 0px; /* "Эта строчка отвечает за дальность появления меню слева" */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebar a {
+    padding: 3px 8px 10px 5px;/* "Эта строчка отвечает за междустрочие текста а последнее за отступ от левой рамки" */
+    text-decoration: none;
+    font-size: 20px; /* "Эта размер текста в левом меню" */
+    color: #818181;
+    display: block;
+    transition: 0.3s; /* "Это время ухода левого меню" */
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.openbtn {
+    font-size: 25px; /* "Это размер кнопки входа в меню" */
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 5px 5px;/* "её ширина и высота на которую можно нажать" */
+    border: none;
+}
+.openbtn:hover {
+    background-color: #444;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/* Style the active link (highlight it) */
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /*position: relative; /* Устанавливаем позиционирование для родительского элемента */
+
+
+}
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #444;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+} /* ниже кнопки вк и ютуб---------------------------------------------------------------------------------------------------------------------------------ниже кнопки вк и ютуб */
+
+.social-buttons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.social-buttons a {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    margin-bottom: -5px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.social-buttons a:hover {
+    opacity: 1;
+}
+
+.youtube-button {
+    background-image: url('Yt.png'); /* Замените на ваш URL-адрес */
+}
+
+.vk-button {
+    background-image: url('VkWhite.png'); /* Замените на ваш URL-адрес */
+}

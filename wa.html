@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Корзина</title>
+<style>
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .selected {
+    background-color: #4CAF50;
+  }
+  #total-price {
+    margin-top: 20px;
+  }
+  #buy-button {
+    margin-top: 20px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div id="dot-container">
+  <!-- Точки с ценами будут добавлены здесь -->
+</div>
+
+<div id="cart">
+  <h2>Корзина</h2>
+  <ul id="cart-items"></ul>
+  <p id="total-price">Общая цена: $<span id="total-price-value">0</span></p>
+  <button id="buy-button">Купить</button>
+</div>
+
+<div id="checkout-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Оформление заказа</h2>
+    <form id="checkout-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="full-name">Имя Фамилия:</label>
+      <input type="text" id="full-name" name="full-name" required>
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" required pattern="\d{11}">
+      <label for="payment-method">Способ оплаты:</label>
+      <select id="payment-method" name="payment-method" required>
+        <option value="">Выберите способ оплаты</option>
+        <option value="sberbank">СБП</option>
+        <option value="yandex-pay">Yandex Pay</option>
+      </select>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  // Массив точек с ценами
+  const dots = [
+    { id: 1, price: 10 },
+    { id: 2, price: 20 },
+    { id: 3, price: 30 },
+    // Добавьте больше точек с ценами по необходимости
+  ];
+
+  // Функция для добавления точек на страницу
+  function addDotsToPage() {
+    const dotContainer = document.getElementById('dot-container');
+    dots.forEach(dot => {
+      const dotElement = document.createElement('div');
+      dotElement.className = 'dot';
+      dotElement.dataset.id = dot.id;
+      dotElement.dataset.price = dot.price;
+      dotElement.addEventListener('click', handleDotClick);
+      dotContainer.appendChild(dotElement);
+    });
+  }
+
+  // Функция для обработки нажатия на точку
+  function handleDotClick(event) {
+    const dot = event.target;
+    dot.classList.toggle('selected');
+    updateCart(dot);
+  }
+
+  // Функция для обновления корзины и общей цены
+  function updateCart(dot) {
+    const cartItems = document.getElementById('cart-items');
+    const totalPriceElement = document.getElementById('total-price-value');
+    const dotId = dot.dataset.id;
+    const dotPrice = parseInt(dot.dataset.price, 10);
+    let totalPrice = parseInt(totalPriceElement.textContent, 10);
+
+    if (dot.classList.contains('selected')) {
+      // Добавление элемента в корзину
+      const cartItem = document.createElement('li');
+      cartItem.textContent = `Точка ${dotId} - $${dotPrice}`;
+      cartItems.appendChild(cartItem);
+
+      // Увеличение общей цены
+      totalPrice += dotPrice;
+    } else {
+      // Удаление элемента из корзины
+      const cartItemToRemove = Array.from(cartItems.children).find(item =>
+        item.textContent.includes(`Точка ${dotId}`)
+      );
+      if (cartItemToRemove) {
+        cartItems.removeChild(cartItemToRemove);
+      }
+
+      // Уменьшение общей цены
+      totalPrice -= dotPrice;
+    }
+
+    // Обновление общей цены на странице
+    totalPriceElement.textContent = totalPrice;
+  }
+
+  // Обработчик нажатия на кнопку "Купить"
+  document.getElementById('buy-button').addEventListener('click', function() {
+    document.getElementById('checkout-modal').style.display = 'block';
+  });
+
+  // Обработчик закрытия модального окна
+  document.getElementsByClassName('close')[0].addEventListener('click', function() {
+    document.getElementById('checkout-modal').style.display = 'none';
+  });
+
+  // Добавление точек на страницу при загрузке
+  addDotsToPage();
+</script>
+
+</body>
+</html>
