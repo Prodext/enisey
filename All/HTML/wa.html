@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с вкладками</title>
+    <link href="https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="Tickets.css" rel="stylesheet">
+    <link rel="canonical" href="https://codepen.io/ahmadbassamemran/pen/rNjMXqg">
+  <link rel="stylesheet" href="ModalWindow.css">
+  
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    
+  
+</head>
+<body>
+ <!-- Местоположение текста весь текст настраивается здесь -->
+
+<button class="primary" onclick="window.dialog.showModal();">Купить билеты</button>
+
+<dialog id="dialog">
+    <h2>Hello.</h2>
+
+    <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+</dialog>
+ 
+</body>
+
+

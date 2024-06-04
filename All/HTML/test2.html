@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Line</title>
+<style>
+ .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .selected {
+    background-color: #4CAF50;
+  }
+  #total-price {
+    margin-top: 20px;
+  }
+
+
+
+
+
+  .horizontal-line {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 1050px;
+top: 800px;
+  }
+  .horizontal-line1 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 650px;
+top: 800px;
+  }
+  .horizontal-line2 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 650px;
+top: 150px;
+  }
+  .horizontal-line3 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 1425px;
+top: 430px;
+  }
+  .horizontal-line4 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 1425px;
+top: 530px;
+  }
+  .horizontal-leftline5 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 450px;
+top: 530px;
+  }
+  .horizontal-leftline6 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+left: 450px;
+top: 430px;
+  }
+  .vertical-line {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 50px;
+    margin: 0 auto;
+    left: 1450px;
+    top: 400px;
+
+  }
+  .vertical-line1 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 100px;
+    margin: 0 auto;
+    left: 1425px;
+    top: 450px;
+
+  }
+  .vertical-line2 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 50px;
+    margin: 0 auto;
+    left: 1450px;
+    top: 550px;
+
+  }
+  .vertical-leftline3 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 50px;
+    margin: 0 auto;
+    left: 450px;
+    top: 550px;
+
+  }
+  .vertical-leftline4 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 100px;
+    margin: 0 auto;
+    left: 475px;
+    top: 450px;
+
+  }
+  .vertical-leftline5 {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 50px;
+    margin: 0 auto;
+    left: 450px;
+    top: 400px;
+
+  }
+
+
+  .Перевёрнутый-text {
+    position: absolute;
+    top: 445px;
+    left: 1400px;
+    transform: rotate(-270deg);
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  .Перевёрнутый-text2 {
+    position: absolute;
+    top: 445px;
+    left: 422px;
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  .TextZapad {
+    position: absolute;
+    top: 85px;
+    left: 900px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  .TextVostok {
+    position: absolute;
+    top: 765px;
+    left: 900px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+
+
+
+  #c1{
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 40px;
+  }
+  .SectorC1 {
+    position: absolute;
+    left: 912px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC1:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC2 {
+    position: absolute;
+    left: 984px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC2:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC3 {
+    position: absolute;
+    left: 1056px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC3:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC4 {
+    position: absolute;
+    left: 1128px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC4:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC5 {
+    position: absolute;
+    left: 840px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC5:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC6 {
+    position: absolute;
+    left: 768px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC6:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC7 {
+    position: absolute;
+    left: 696px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC7:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC8 {
+    position: absolute;
+    left: 623px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC8:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorC9 {
+    position: absolute;
+    left: 1200px;
+    top: 680px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorC9:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+
+
+
+
+
+
+  .SectorA11 {
+    position: absolute;
+    left: 900px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA11:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA12 {
+    position: absolute;
+    left: 972px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA12:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA13 {
+    position: absolute;
+    left: 1044px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA13:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA14 {
+    position: absolute;
+    left: 1116px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA14:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA15 {
+    position: absolute;
+    left: 828px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA15:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA16 {
+    position: absolute;
+    left: 756px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA16:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA17 {
+    position: absolute;
+    left: 684px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA17:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA18 {
+    position: absolute;
+    left: 612px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorA18:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorA19 {
+
+    position: absolute;
+    left: 1188px;
+    top: 180px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 70px;
+height: 120px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+
+
+  }
+
+  .SectorA19:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .SectorB1 {
+   position: absolute;
+    left: 1292px;
+    top: 462px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorB1:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorB2 {
+   position: absolute;
+    left: 1292px;
+    top: 389px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorB2:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorB3 {
+   position: absolute;
+    left: 1292px;
+    top: 316px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorB3:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorB4 {
+   position: absolute;
+    left: 1292px;
+    top: 534px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorB4:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorB5 {
+   position: absolute;
+    left: 1292px;
+    top: 606px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorB5:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+
+
+
+
+
+
+  .SectorD5 {
+   position: absolute;
+   left: 485px;
+    top: 606px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorD5:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+ .SectorD2 {
+   position: absolute;
+   left: 485px;
+    top: 389px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorD2:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorD3 {
+   position: absolute;
+   left: 485px;
+    top: 316px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorD3:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorD4 {
+   position: absolute;
+   left: 485px;
+    top: 534px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorD4:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+  .SectorD1 {
+   position: absolute;
+   left: 485px;
+   top: 461.5px;
+    z-index: 999;
+    background-color: #397dd6; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+width: 120px;
+height: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 2px solid rgb(129, 129, 129); /* Очертание кнопки */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    opacity: 0.5
+  }
+
+  .SectorD1:hover {
+    background-color: #f44336; /* Красный при наведении */
+    opacity: 10
+  }
+
+
+
+
+
+
+
+
+  .rectangle {
+    position: absolute;
+    left: 650px;
+    top: 355px;
+    width: 600px;
+    height: 280px;
+    border: 2px solid black; /* Черная граница */
+  }
+  .cube1 {
+    position: absolute;
+    left: 650px;
+    top: 455px;
+    width: 20px;
+    height: 80px;
+    border: 2px solid black; /* Черная граница */
+  }
+  .cube2 {
+    position: absolute;
+    left: 650px;
+    top: 414px;
+    width: 50px;
+    height: 160px;
+    border: 2px solid black; /* Черная граница */
+  }
+  .cube3 {
+    position: absolute;
+    left: 1230px;
+    top: 455px;
+    width: 20px;
+    height: 80px;
+    border: 2px solid black; /* Черная граница */
+  }
+  .cube4 {
+    position: absolute;
+    left: 1200px;
+    top: 414px;
+    width: 50px;
+    height: 160px;
+    border: 2px solid black; /* Черная граница */
+  }
+  
+    .vertical-line {
+      top: 356px;
+      left: 950px;
+      z-index: 999;
+    position: absolute;
+    border-left: 2px solid black;
+    height: 282px;
+    margin: 0 auto;
+  }
+
+  .circle {
+    position: absolute;
+    top: 445px;
+    width: 100px; /* Диаметр круга */
+    height: 100px; /* Диаметр круга */
+    border-radius: 50%; /* Создает круг */
+    border: 1px solid black;
+    margin: 0 auto; /* Выравнивание по центру */
+    left: 900px;
+  }
+
+
+
+
+
+
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style>
+
+
+</head>
+<body>
+
+<div class="horizontal-line"></div>
+<div class="horizontal-line1"></div>
+<div class="horizontal-line2"></div>
+<div class="horizontal-line3"></div>
+<div class="horizontal-line4"></div>
+<div class="horizontal-leftline5"></div>
+<div class="horizontal-leftline6"></div>
+<div class="vertical-line"></div>
+<div class="vertical-line1"></div>
+<div class="vertical-line2"></div>
+<div class="vertical-leftline3"></div>
+<div class="vertical-leftline4"></div>
+<div class="vertical-leftline5"></div>
+
+
+
+<div class="Перевёрнутый-text">ТРИБУНА B</div>
+<div class="Перевёрнутый-text2">ТРИБУНА D</div>
+<div class="TextZapad">ТРИБУНА A</div>
+<div class="TextVostok">ТРИБУНА C</div>
+
+
+
+<canvas id="myCanvas" width="5000" height="5000"></canvas>
+
+
+<div class="circle"></div>
+
+<div class="rectangle"></div>
+<div class="cube1"></div>
+<div class="cube2"></div>
+<div class="cube3"></div>
+<div class="cube4"></div>
+
+<div class="vertical-line"></div>
+
+
+<button class="SectorD5" onclick="window.dialog1.showModal();">D5</button>
+
+<dialog id="dialog1">
+  <div id="dot-container">
+    <!-- Точки с ценами -->
+  </div>
+  
+  <div id="cart">
+    <h2>Корзина</h2>
+    <ul id="cart-items"></ul>
+    <p id="total-price">Общая цена: $<span id="total-price-value">0</span></p>
+  </div>
+    <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+    <button id="buyButton">Купить</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Оформление заказа</h2>
+        <form>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="name">Имя Фамилия:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="phone">Телефон:</label><br>
+          <input type="tel" id="phone" name="phone" maxlength="11" required><br>
+          <label for="payment">Способ оплаты:</label><br>
+          <select id="payment" name="payment" required>
+            <option value="">Выберите способ оплаты</option>
+            <option value="sbp">СБП</option>
+            <option value="yandex">Yandex Pay</option>
+          </select><br>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+    
+</dialog>
+
+<button class="SectorD4" onclick="window.dialog.showModal();">D4</button>
+<button class="SectorD3" onclick="window.dialog.showModal();">D3</button>
+<button class="SectorD2" onclick="window.dialog.showModal();">D2</button>
+<button class="SectorD1" onclick="window.dialog.showModal();">D1</button>
+<button class="SectorC1" onclick="window.dialog.showModal();">C1</button>
+<button class="SectorC2" onclick="window.dialog.showModal();">C2</button>
+<button class="SectorC3" onclick="window.dialog.showModal();">C3</button>
+<button class="SectorC4" onclick="window.dialog.showModal();">C4</button>
+<button class="SectorC5" onclick="window.dialog.showModal();">C5</button>
+<button class="SectorC6" onclick="window.dialog.showModal();">C6</button>
+<button class="SectorC7" onclick="window.dialog.showModal();">C7</button>
+<button class="SectorC8" onclick="window.dialog.showModal();">C8</button>
+<button class="SectorC9" onclick="window.dialog.showModal();">C9</button>
+<button class="SectorB1" onclick="window.dialog.showModal();">B1</button>
+<button class="SectorB2" onclick="window.dialog.showModal();">B2</button>
+<button class="SectorB3" onclick="window.dialog.showModal();">B3</button>
+<button class="SectorB4" onclick="window.dialog.showModal();">B4</button>
+<button class="SectorB5" onclick="window.dialog.showModal();">B5</button>
+<button class="SectorA11" onclick="window.dialog.showModal();">A11</button>
+<button class="SectorA12" onclick="window.dialog.showModal();">A12</button>
+<button class="SectorA13" onclick="window.dialog.showModal();">A13</button>
+<button class="SectorA14" onclick="window.dialog.showModal();">A14</button>
+<button class="SectorA15" onclick="window.dialog.showModal();">A15</button>
+<button class="SectorA16" onclick="window.dialog.showModal();">A16</button>
+<button class="SectorA17" onclick="window.dialog.showModal();">A17</button>
+<button class="SectorA18" onclick="window.dialog.showModal();">A18</button>
+<button class="SectorA19" onclick="window.dialog.showModal();">A19</button>
+</body>
+
+
+<script>
+
+ // Массив точек с ценами
+ const dots = [
+    { id: 1, price: 10 },
+    { id: 2, price: 20 },
+    { id: 3, price: 30 },
+    { id: 4, price: 30 },
+    { id: 5, price: 30 },
+    { id: 6, price: 30 },
+    { id: 7, price: 30 },
+    { id: 8, price: 30 },
+    { id: 9, price: 30 },
+    { id: 10, price: 30 },
+    { id: 11, price: 30 },
+    { id: 12, price: 30 },
+    { id: 13, price: 30 },
+    { id: 14, price: 30 },
+    { id: 15, price: 30 },
+    { id: 16, price: 30 },
+    { id: 17, price: 30 },
+    { id: 18, price: 30 },
+    { id: 19, price: 30 },
+    { id: 20, price: 30 },
+    { id: 21, price: 30 },
+    { id: 22, price: 30 },
+    { id: 23, price: 30 },
+    { id: 24, price: 30 },
+    { id: 25, price: 30 },
+    { id: 26, price: 30 },
+    { id: 27, price: 30 },
+    { id: 28, price: 30 },
+    { id: 29, price: 30 },
+    // Добавьте больше точек с ценами по необходимости
+  ];
+
+  // Функция для добавления точек на страницу
+  function addDotsToPage() {
+    const dotContainer = document.getElementById('dot-container');
+    dots.forEach(dot => {
+      const dotElement = document.createElement('div');
+      dotElement.className = 'dot';
+      dotElement.dataset.id = dot.id;
+      dotElement.dataset.price = dot.price;
+      dotElement.addEventListener('click', handleDotClick);
+      dotContainer.appendChild(dotElement);
+    });
+  }
+
+  // Функция для обработки нажатия на точку
+  function handleDotClick(event) {
+    const dot = event.target;
+    dot.classList.toggle('selected');
+    updateCart(dot);
+  }
+
+  // Функция для обновления корзины и общей цены
+  function updateCart(dot) {
+    const cartItems = document.getElementById('cart-items');
+    const totalPriceElement = document.getElementById('total-price-value');
+    const dotId = dot.dataset.id;
+    const dotPrice = parseInt(dot.dataset.price, 10);
+    let totalPrice = parseInt(totalPriceElement.textContent, 10);
+
+    if (dot.classList.contains('selected')) {
+      // Добавление элемента в корзину
+      const cartItem = document.createElement('li');
+      cartItem.textContent = `Точка ${dotId} - $${dotPrice}`;
+      cartItems.appendChild(cartItem);
+
+      // Увеличение общей цены
+      totalPrice += dotPrice;
+    } else {
+      // Удаление элемента из корзины
+      const cartItemToRemove = Array.from(cartItems.children).find(item =>
+        item.textContent.includes(`Точка ${dotId}`)
+      );
+      if (cartItemToRemove) {
+        cartItems.removeChild(cartItemToRemove);
+      }
+
+      // Уменьшение общей цены
+      totalPrice -= dotPrice;
+    }
+
+    // Обновление общей цены на странице
+    totalPriceElement.textContent = totalPrice;
+  }
+
+  // Добавление точек на страницу при загрузке
+  addDotsToPage();
+
+
+
+
+
+
+
+
+
+ var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+
+  // Нарисуем кривую Безье
+  context.beginPath();
+  context.moveTo(1242, 812.5); // Стартовая точка
+  context.bezierCurveTo(1450, 800, 1442, 592,1442.5, 592); // Конечная точка и две управляющие точки
+  context.stroke();
+ 
+  context.beginPath();
+  context.moveTo(1242, 162); // Стартовая точка
+  context.bezierCurveTo(1450,170.5, 1442, 350,1442.5, 392); // Конечная точка и две управляющие точки
+  context.stroke();
+ 
+ 
+  // Нарисуем вторую кривую Безье
+  context.beginPath();
+  context.moveTo(642, 812);
+  context.bezierCurveTo(434,812.5, 442, 600, 442.5, 592);
+  context.stroke();
+  // Нарисуем вторую кривую Безье
+  context.beginPath();
+  context.moveTo(642, 162);
+  context.bezierCurveTo(434,170.5, 442, 350, 442.5, 392);
+  context.stroke();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// КНОПКИ КУПИТь
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("buyButton");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+</script>
+</html>

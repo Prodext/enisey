@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с вкладками</title>
+    <link href="https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap" rel="stylesheet">
+    <link href="C:\Users\kiril\Desktop\sds\ai\All\CSS\styles.css" rel="stylesheet">
+    <link href="C:\Users\kiril\Desktop\sds\ai\All\CSS\Tickets.css" rel="stylesheet">
+    <link rel="canonical" href="https://codepen.io/ahmadbassamemran/pen/rNjMXqg">
+  <link rel="stylesheet" href="C:\Users\kiril\Desktop\sds\ai\All\CSS\ModalWindow.css">
+  
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <script src="C:\Users\kiril\Desktop\sds\ai\All\Js\Tickets.js"></script>
+  
+</head>
+<!-- Местоположение текста весь текст настраивается здесь -->
+
+</style>
+<body>
+<div id="mySidebar" class="sidebar">
+    <a href="home.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Главная.png" alt="Home">Главная</a>
+    <div class="dropdown">
+        <a href="club.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Клуб.jpg" alt="mass_runs">Клуб <button class="dropdown-button" id="toggleButton">﹀ </button> <!-- Добавляем кнопку "a" --> </a>
+        <div id="dropdownContent" class="dropdown-content"> <!-- Заменяем id на "dropdownContent" -->
+            <a href="club-enisey.html">Енисей</a>
+            <a href="club-enisey2.html">Енисей-2</a>
+            <a href="club-history.html">История</a>
+            <a href="club-achievements.html">Достижения</a>
+            <a href="club-veterans.html">Ветераны</a>
+            <a href="club-symbolism.html">Символика и гимн</a>
+        </div>
+    </div>
+    <a href="competitions.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Турниры.png" alt="Турниры">Турнирная сетка</a>
+    <a href="school.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Школа.png" alt="School">Школа</a>
+    <a href="mass_runs.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Школа.png" alt="mass_runs">Катание</a>
+    <div class="dropdown">
+        <a href="media.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Медиа.png" alt="Media">Медиа <button class="dropdown-button" id="toggleMediaButton">﹀</button></a>
+
+        <div id="mediaDropdownContent" class="dropdown-content">
+            <a href="media-photogallery.html">Фотогалерея</a>
+            <a href="media-videogallery.html">Галерея видео</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="contacts.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Контакты.png" alt="contacts">Контакты <button class="dropdown-button" id="toggleContactsButton">﹀</button></a>
+        <div id="contactsDropdownContent" class="dropdown-content">
+            <a href="contacts-qa.html">Вопрос-ответ</a>
+        </div>
+    </div>
+</div>
+<div class="white-line"></div>
+<button class="centered-button" onclick="redirectToTicketsPage()">Билеты</button>
+<button class="magazin-button" onclick="redirectToTicketsPage1()">Магазин</button>
+<button class="tour-button" onclick="redirectToTicketsPage2()">Тур</button>
+<div class="white1-line"></div>
+
+<div class="white2-line"></div>
+
+<div class="search-box">
+    <button class="btn-search"><i class="fas fa-search"></i></button>
+    <input type="text" class="input-search" placeholder="Поиск">
+  </div>
+
+  <button id="changeTextButton">ENG</button>
+ 
+
+ 
+  <div class="photo-container">
+    <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Стадион.jpg" alt="Фото">
+  </div>
+
+  <div class="photo-container1">
+    <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Байкал Энергия.png" alt="Фото">
+  </div>
+
+  <div class="photo-container2">
+    <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Enisey.png" alt="Фото">
+  </div>
+
+  <div class="white1-line"></div>
+
+  <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\partner1.png" alt="Your Image" class="partner1">
+  <div class="textpartner-container">
+    <h1>Партнёры</h1>
+</div>
+  <div class="textpartner-container1">
+    <h1>18 ИЮНЯ</h1>
+
+  <div class="textpartner-container2">
+    <h1>Красноярск,"Енисей Арена"</h1>
+
+   
+    <button class="primary" onclick="window.dialog.showModal();">Купить билеты</button>
+
+    <dialog id="dialog">
+        <div class="horizontal-line"></div>
+        <div class="horizontal-line1"></div>
+        <div class="horizontal-line2"></div>
+        <div class="horizontal-line3"></div>
+        <div class="horizontal-line4"></div>
+        <div class="horizontal-leftline5"></div>
+        <div class="horizontal-leftline6"></div>
+        <div class="vertical-line"></div>
+        <div class="vertical-line1"></div>
+        <div class="vertical-line2"></div>
+        <div class="vertical-leftline3"></div>
+        <div class="vertical-leftline4"></div>
+        <div class="vertical-leftline5"></div>
+        <div class="vertical-leftline6"></div>
+
+        
+<canvas id="myCanvas" width="980" height="800"></canvas>
+
+
+
+<div class="circle"></div>
+
+<div class="rectangle"></div>
+<div class="cube1"></div>
+<div class="cube2"></div>
+<div class="cube3"></div>
+<div class="cube4"></div>
+
+<div class="vertical-line"></div>
+<button class="SectorD5" onclick="window.dialog1.showModal();">D5</button>
+<button class="SectorD4" onclick="window.dialog1.showModal();">D4</button>
+<button class="SectorD3" onclick="window.dialog1.showModal();">D3</button>
+<button class="SectorD2" onclick="window.dialog1.showModal();">D2</button>
+<button class="SectorD1" onclick="window.dialog1.showModal();">D1</button>
+<button class="SectorC1" onclick="window.dialog1.showModal();">C1</button>
+<button class="SectorC2" onclick="window.dialog1.showModal();">C2</button>
+<button class="SectorC3" onclick="window.dialog1.showModal();">C3</button>
+<button class="SectorC4" onclick="window.dialog1.showModal();">C4</button>
+<button class="SectorC5" onclick="window.dialog1.showModal();">C5</button>
+<button class="SectorC6" onclick="window.dialog1.showModal();">C6</button>
+<button class="SectorC7" onclick="window.dialog1.showModal();">C7</button>
+<button class="SectorC8" onclick="window.dialog1.showModal();">C8</button>
+<button class="SectorC9" onclick="window.dialog1.showModal();">C9</button>
+<button class="SectorB1" onclick="window.dialog1.showModal();">B1</button>
+<button class="SectorB2" onclick="window.dialog1.showModal();">B2</button>
+<button class="SectorB3" onclick="window.dialog1.showModal();">B3</button>
+<button class="SectorB4" onclick="window.dialog1.showModal();">B4</button>
+<button class="SectorB5" onclick="window.dialog1.showModal();">B5</button>
+<button class="SectorA11" onclick="window.dialog1.showModal();">A11</button>
+<button class="SectorA12" onclick="window.dialog1.showModal();">A12</button>
+<button class="SectorA13" onclick="window.dialog1.showModal();">A13</button>
+<button class="SectorA14" onclick="window.dialog1.showModal();">A14</button>
+<button class="SectorA15" onclick="window.dialog1.showModal();">A15</button>
+<button class="SectorA16" onclick="window.dialog1.showModal();">A16</button>
+<button class="SectorA17" onclick="window.dialog1.showModal();">A17</button>
+<button class="SectorA18" onclick="window.dialog1.showModal();">A18</button>
+<button class="SectorA19" onclick="window.dialog1.showModal();">A19</button>
+        <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+
+
+
+
+
+
+
+
+        
+<div class="Перевёрнутый-text">ТРИБУНА B</div>
+<div class="Перевёрнутый-text2">ТРИБУНА D</div>
+<div class="TextZapad">ТРИБУНА A</div>
+<div class="TextVostok">ТРИБУНА C</div>
+<dialog id="dialog1">
+  <div id="dot-container">
+    <!-- Точки с ценами -->
+  </div>
+  
+  <div id="cart">
+    <h2>Корзина</h2>
+    <ul id="cart-items"></ul>
+    <p id="total-price">Общая цена: $<span id="total-price-value">0</span></p>
+  </div>
+    <button onclick="window.dialog1.close();" aria-label="close" class="x">❌</button>
+    <button id="buyButton">Купить</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>     
+        <h2 class="ТекстСверху" >Or pay another way</h2>
+        <form>
+          <a href="https://pay.google.com/about/" target="_blank" title="Перейти на пример сайта">
+          <div class="Gpay1">
+            <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Gpay.jpg" alt="Gpay" class="Gpay">
+          </a>
+          </div>
+          <div class="ЛеваяЛинияСверху"></div>
+          <div class="ПраваяЛинияСверху"></div>
+          <label class="email" for="email">Email:</label><br>
+          <input class="emailtext" type="email" id="email" name="email" required><br>
+          <label class="Имя" for="Имя">Name on card</label><br>
+          <input class="Имя1" type="Имя1" id="Имя1" name="Имя1" required><br>
+          <label class="card" for="card">Card information</label><br>
+          <input class="cardtext" type="tel" id="card" name="card" required><br>
+          <input class="cardtext1" type="tel1" id="card1" name="card1" required><br>
+          <input class="cardtext2" type="tel2" id="card2" name="card2" required><br>
+          <label class="Country" for="Country">Country and region</label><br>
+          <input class="Countrytext" type="Countrytext" id="Countrytext" name="Countrytext" required><br>
+          <input class="Countrytext1" type="Countrytext1" id="Countrytext1" name="Countrytext1" required><br>
+          </select><br>
+          <input class="submit" type="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+    
+<script>
+
+ // Массив точек с ценами
+ const dots = [
+    { id: 1, price: 10 },
+    { id: 2, price: 20 },
+    { id: 3, price: 30 },
+    { id: 4, price: 30 },
+    { id: 5, price: 30 },
+    { id: 6, price: 30 },
+    { id: 7, price: 30 },
+    { id: 8, price: 30 },
+    { id: 9, price: 30 },
+    { id: 10, price: 30 },
+    { id: 11, price: 30 },
+    { id: 12, price: 30 },
+    { id: 13, price: 30 },
+    { id: 14, price: 30 },
+    { id: 15, price: 30 },
+    { id: 16, price: 30 },
+    { id: 17, price: 30 },
+    { id: 18, price: 30 },
+    { id: 19, price: 30 },
+    { id: 20, price: 30 },
+    { id: 21, price: 30 },
+    { id: 22, price: 30 },
+    { id: 23, price: 30 },
+    { id: 24, price: 30 },
+    { id: 25, price: 30 },
+    { id: 26, price: 30 },
+    { id: 27, price: 30 },
+    { id: 28, price: 30 },
+    { id: 29, price: 30 },
+    // Добавьте больше точек с ценами по необходимости
+  ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+    
+</dialog>
+
+<script>
+  
+
+
+
+ var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+
+  // Нарисуем кривую Безье
+  context.beginPath();
+  context.moveTo(974.2, 468);
+  context.bezierCurveTo(980,682.5, 862, 700, 780, 698,7);
+  context.stroke();
+ 
+  context.beginPath();
+  context.moveTo(974.2, 268); // Стартовая точка
+  context.bezierCurveTo(980,17.5, 862, 46,780, 38); // Конечная точка и две управляющие точки
+  context.stroke();
+ 
+ 
+  // Нарисуем вторую кривую Безье
+  context.beginPath();
+  context.moveTo(0, 468);
+  context.bezierCurveTo(10,682.5, 82, 700, 192, 698,7);
+  context.stroke();
+  // Нарисуем вторую кривую Безье
+  context.beginPath();
+  context.moveTo(0, 268);
+  context.bezierCurveTo(10,17.5, 102, 46, 192, 38);
+  context.stroke();
+
+
+</script>
+
+
+
+
+<Script>
+  
+</Script>
+
+        
+
+    </dialog>
+
+
+
+
+
+
+
+
+    <div class="BoxMatch"></div>
+
+    <div class="textTeam1">
+        <h1>Енисей</h1>
+    </div>
+    <div class="textTeam2">
+        <h1>Байкал-Энергия</h1>
+        </div> 
+    </div> 
+
+
+    <div class="PHOTOENISEY">
+        <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Enisey.png" alt="Фотография" class="imageTeam">
+    </div>
+
+
+    <div class="PHOTOBaikal">
+        <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Байкал Энергия.png" alt="Фотография" class="imageTeam1">
+    </div>
+
+
+
+    <div class="textTime">
+        <h1>18 июня</h1>
+        </div> 
+    </div> 
+
+
+
+<script>
+    function redirectToTicketsPage() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'tickets.html';
+    }
+    function redirectToTicketsPage1() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'shop.html';
+    }
+    function redirectToTicketsPage2() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'tour.html';
+    }
+    // Функция для переключения состояния dropdown-content
+    function toggleDropdown() {
+        event.preventDefault();
+        var dropdownContent = document.getElementById("dropdownContent");
+        var toggleButton = document.getElementById('toggleButton');
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            toggleButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            dropdownContent.style.display = "block";
+            toggleButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+
+    // Привязываем функцию к кнопке "a"
+    document.getElementById("toggleButton").addEventListener("click", toggleDropdown);
+
+
+
+
+    function toggleDropdown1() {
+        event.preventDefault();
+        var mediaDropdownContent = document.getElementById('mediaDropdownContent');
+        var toggleMediaButton = document.getElementById('toggleMediaButton');
+        if (mediaDropdownContent.style.display === 'block') {
+            mediaDropdownContent.style.display = 'none';
+            toggleMediaButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            mediaDropdownContent.style.display = 'block';
+            toggleMediaButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+    document.getElementById("toggleMediaButton").addEventListener("click", toggleDropdown1);
+
+
+
+
+
+    function toggleDropdown2() {
+        event.preventDefault();
+        var contactsDropdownContent = document.getElementById('contactsDropdownContent');
+        var toggleContactsButton = document.getElementById('toggleContactsButton');
+        if (contactsDropdownContent.style.display === 'block') {
+            contactsDropdownContent.style.display = 'none';
+            toggleContactsButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            contactsDropdownContent.style.display = 'block';
+            toggleContactsButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+    document.getElementById("toggleContactsButton").addEventListener("click", toggleDropdown2);
+    
+
+
+
+    
+    // Получаем ссылку на кнопку
+    var button = document.getElementById("changeTextButton");
+  
+    // Функция, которая будет вызываться при нажатии на кнопку
+    function changeText() {
+      if (button.innerText === "ENG") {
+        button.innerText = "RUS";
+      } else {
+        button.innerText = "ENG";
+      }
+    }
+  
+    // Добавляем обработчик события на кнопку
+    button.addEventListener("click", changeText);
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Функция для добавления точек на страницу
+  function addDotsToPage() {
+    const dotContainer = document.getElementById('dot-container');
+    dots.forEach(dot => {
+      const dotElement = document.createElement('div');
+      dotElement.className = 'dot';
+      dotElement.dataset.id = dot.id;
+      dotElement.dataset.price = dot.price;
+      dotElement.addEventListener('click', handleDotClick);
+      dotContainer.appendChild(dotElement);
+    });
+  }
+
+  // Функция для обработки нажатия на точку
+  function handleDotClick(event) {
+    const dot = event.target;
+    dot.classList.toggle('selected');
+    updateCart(dot);
+  }
+
+  // Функция для обновления корзины и общей цены
+  function updateCart(dot) {
+    const cartItems = document.getElementById('cart-items');
+    const totalPriceElement = document.getElementById('total-price-value');
+    const dotId = dot.dataset.id;
+    const dotPrice = parseInt(dot.dataset.price, 10);
+    let totalPrice = parseInt(totalPriceElement.textContent, 10);
+
+    if (dot.classList.contains('selected')) {
+      // Добавление элемента в корзину
+      const cartItem = document.createElement('li');
+      cartItem.textContent = `Точка ${dotId} - $${dotPrice}`;
+      cartItems.appendChild(cartItem);
+
+      // Увеличение общей цены
+      totalPrice += dotPrice;
+    } else {
+      // Удаление элемента из корзины
+      const cartItemToRemove = Array.from(cartItems.children).find(item =>
+        item.textContent.includes(`Точка ${dotId}`)
+      );
+      if (cartItemToRemove) {
+        cartItems.removeChild(cartItemToRemove);
+      }
+
+      // Уменьшение общей цены
+      totalPrice -= dotPrice;
+    }
+
+    // Обновление общей цены на странице
+    totalPriceElement.textContent = totalPrice;
+  }
+
+  // Добавление точек на страницу при загрузке
+  addDotsToPage();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// КНОПКИ КУПИТь
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("buyButton");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+    
+  </script>
+
+<div class="black-square"></div>
+
+<div class="white1-line"></div>
+
+<img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Enisey.png" alt="Your Image" class="Enisey">
+
+<div class="TextDown1">
+    <h1>Официальный сайт</h1>
+</div>
+
+
+<div class="TextDown17">
+    <h1>Хоккейного клуба</h1>
+</div>
+
+<div class="TextDown18">
+    <h1>"Енисей"</h1>
+</div>
+
+
+<div class="TextDown2">
+    <h1>Адрес</h1>
+</div>
+<div class="TextDown3">
+    <h1>
+       
+        ул. Юности, 18, Красноярск</h1>
+</div>
+
+<div class="TextDown4">
+    <h1>Главная</h1>
+</div>
+
+<div class="TextDown5">
+    <h1>Клуб</h1>
+</div>
+
+<div class="TextDown6">
+    <h1>Медиа</h1>
+</div>
+<div class="TextDown7">
+    <h1>Контакты</h1>
+</div>
+
+
+<div class="TextDown8">
+    <h1>Енисей</h1>
+</div>
+
+<div class="TextDown9">
+    <h1>Енисей-2</h1>
+</div>
+
+<div class="TextDown10">
+    <h1>История</h1>
+</div>
+<div class="TextDown11">
+    <h1>Достижения</h1>
+</div>
+
+<div class="TextDown12">
+    <h1>Ветераны</h1>
+</div>
+
+<div class="TextDown13">
+    <h1>Ветераны и гимн</h1>
+</div>
+
+<div class="TextDown14">
+    <h1>Турнирная сетка</h1>
+</div>
+
+<div class="TextDown15">
+    <h1>Фотогалерея</h1>
+</div>
+
+<div class="TextDown16">
+    <h1>Галерея видео</h1>
+</div>
+
+</body>
+</html>

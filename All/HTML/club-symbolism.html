@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с вкладками</title>
+    <link href="https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap" rel="stylesheet">
+    <link href="C:\Users\kiril\Desktop\sds\ai\All\CSS\styles.css" rel="stylesheet">
+    <link href="C:\Users\kiril\Desktop\sds\ai\All\CSS\Symbolism.css" rel="stylesheet">
+    <link rel="canonical" href="https://codepen.io/ahmadbassamemran/pen/rNjMXqg">
+  <link rel="stylesheet" href="C:\Users\kiril\Desktop\sds\ai\All\CSS\Home.css">
+  
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+
+  
+</head>
+<!-- Местоположение текста весь текст настраивается здесь -->
+
+</style>
+<body>
+<div id="mySidebar" class="sidebar">
+    <a href="home.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Главная.png" alt="Home">Главная</a>
+    <div class="dropdown">
+        <a href="club.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Клуб.jpg" alt="mass_runs">Клуб <button class="dropdown-button" id="toggleButton">﹀ </button> <!-- Добавляем кнопку "a" --> </a>
+        <div id="dropdownContent" class="dropdown-content"> <!-- Заменяем id на "dropdownContent" -->
+            <a href="club-history.html">История</a>
+            <a href="club-achievements.html">Достижения</a>
+            <a href="club-veterans.html">Ветераны</a>
+            <a href="club-symbolism.html">Символика и гимн</a>
+        </div>
+    </div>
+    <a href="competitions.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Турниры.png" alt="Турниры">Турнирная сетка</a>
+
+    <a href="mass_runs.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Школа.png" alt="mass_runs">Катание</a>
+    <div class="dropdown">
+        <a href="media.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Медиа.png" alt="Media">Медиа <button class="dropdown-button" id="toggleMediaButton">﹀</button></a>
+
+        <div id="mediaDropdownContent" class="dropdown-content">
+            <a href="media-photogallery.html">Фотогалерея</a>
+            <a href="media-videogallery.html">Галерея видео</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="contacts.html"><img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Контакты.png" alt="contacts">Контакты </a>
+
+    </div>
+</div>
+<div class="white-line"></div>
+<button class="centered-button" onclick="redirectToTicketsPage()">Билеты</button>
+<button class="magazin-button" onclick="redirectToTicketsPage1()">Магазин</button>
+<button class="tour-button" onclick="redirectToTicketsPage2()">Тур</button>
+
+<div class="textpartner-container">
+    <h1>ПАРТНЁРЫ</h1>
+</div>
+
+
+<div class="search-box">
+    <button class="btn-search"><i class="fas fa-search"></i></button>
+    <input type="text" class="input-search" placeholder="Поиск">
+  </div>
+  <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Enisey.png" alt="Your Image" class="Enisey">
+  <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\partner1.png" alt="Your Image" class="partner1">
+
+  <button id="changeTextButton">ENG</button>
+ 
+   <!-- боксы для текста  -->
+
+
+</div>
+
+<div class="textgimn1">
+<p>Цвета «Енисея» - красный, синий и белый. Красный цвет символизирует огонь, жизнь, страсть, силу, мужество, храбрость. Жажда победы, напористость, ставка на атаку - характерная черта в игре «Енисея». Белый цвет - символ благородства, гармонии и чистоты помыслов, искренности и взаимоуважения. Белый цвет так же символизирует необъятные снежные просторы земли Сибирской и снежные вершины Восточных Саян, откуда берет начало река Енисей. Синий цвет - это знак вдохновения, верности и справедливости. Синий цвет способствует исполнению даже тех желаний, которые кажутся несбыточными.</p>
+</div>
+<div class="textgimn2">
+ <strong> Гимн ХК «Енисей»</strong> 
+    </div>
+    
+    <div class="textgimn3">
+        <p> Автор текста и музыки гимна - Владислав Шмелёв.
+            Исполнитель: Группа «Игры».
+            Вокал - Владислав Шмелёв.
+            Соло-гитара - Алексей Наберухин.
+            Бас-гитара - Артём Буш.
+            Ударные - Александр Дегтярёв.</p>
+        </div>
+
+        <div class="textgimn4">
+          <strong>Первый куплет:</strong>
+            </div>
+            <div class="textgimn5">
+                <p> Клюшки на лёд: матч начинается в любой мороз.
+                </p>
+        
+                </div>
+                <div class="textgimn6">
+                    <p> 
+                        Искры от глаз и от коньков - это игра всерьёз.
+                     </p>
+                    </div>
+                    <div class="textgimn7">
+                        <p> 
+                            Непонаслышке знаем, что такое чемпион!
+                           </p>
+                        </div>
+                        <div class="textgimn8">
+                            <p>
+                                Всегда команду поддержит стадион.</p>
+                            </div>
+
+
+                            <div class="textgimn9">
+                           <strong>Припев</strong> 
+                                </div>
+                                <div class="textgimn10">
+                                    <p>Ведь в мире бенди всех сильней</p>
+                                    </div>
+                                    <div class="textgimn11">
+                                        <p>Красноярский «Енисей».</p>
+                                        </div>
+                                        <div class="textgimn12">
+                                            <p>Сердца болельщиков согрей,</p>
+                                            </div>
+                                            <div class="textgimn13">
+                                                <p>Красноярский «Енисей»!</p>
+                                                </div>
+
+
+
+
+
+                                                <div class="textgimn14">
+                                             <strong>Второй куплет:</strong> 
+                                                    </div>
+                                                    <div class="textgimn15">
+                                                        <p>И пусть соперник именит, нас не сломить.</p>
+                                                        </div>
+                                                        <div class="textgimn16">
+                                                            <p>Ведь главный тренер знает как сегодня победить.</p>
+                                                            </div>
+                                                            <div class="textgimn17">
+                                                                <p>Защита словно бронь и атакуем всё быстрей!</p>
+                                                                </div>
+                                                                <div class="textgimn18">
+                                                                    <p>Покажем настоящий русский хоккей.</p>
+                                                                    </div>
+                    
+                    
+
+                                                                    <div class="textgimn19">
+                                                                       <strong>Припев</strong> 
+                                                                        </div>
+                                                                        <div class="textgimn20">
+                                                                            <p>Ведь в мире бенди всех сильней</p>
+                                                                            </div>
+                                                                            <div class="textgimn21">
+                                                                                <p>Красноярский «Енисей».</p>
+                                                                                </div>
+                                                                                <div class="textgimn22">
+                                                                                    <p>Сердца болельщиков согрей,</p>
+                                                                                    </div>
+                                                                                    <div class="textgimn23">
+                                                                                        <p>Красноярский «Енисей»!</p>
+                                                                                        </div>
+                                        
+                                        
+                                        
+
+
+
+
+<div class="black-square"></div>
+
+<div class="white1-line"></div>
+
+
+
+<div class="TextDown1">
+    <h1>Официальный сайт</h1>
+</div>
+
+
+<div class="TextDown17">
+    <h1>Хоккейного клуба</h1>
+</div>
+
+<div class="TextDown18">
+    <h1>"Енисей"</h1>
+</div>
+
+
+<div class="TextDown2">
+    <h1>Адрес:</h1>
+</div>
+<div class="TextDown3">
+    <h1>
+       
+ул. Юности, 18, Красноярск</h1>
+</div>
+
+<div class="TextDown4">
+    <h1>Главная</h1>
+</div>
+
+<div class="TextDown5">
+    <h1>Клуб</h1>
+</div>
+
+<div class="TextDown6">
+    <h1>Медиа</h1>
+</div>
+<div class="TextDown7">
+    <h1>Контакты</h1>
+</div>
+
+
+<div class="TextDown8">
+    <h1>Енисей</h1>
+</div>
+
+<div class="TextDown9">
+    <h1>Енисей-2</h1>
+</div>
+
+<div class="TextDown10">
+    <h1>История</h1>
+</div>
+<div class="TextDown11">
+    <h1>Достижения</h1>
+</div>
+
+<div class="TextDown12">
+    <h1>Ветераны</h1>
+</div>
+
+<div class="TextDown13">
+    <h1>Ветераны и гимн</h1>
+</div>
+
+<div class="TextDown14">
+    <h1>Турнирная сетка</h1>
+</div>
+
+<div class="TextDown15">
+    <h1>Фотогалерея</h1>
+</div>
+
+<div class="TextDown16">
+    <h1>Галерея видео</h1>
+</div>
+
+<script>
+    function redirectToTicketsPage() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'tickets.html';
+    }
+    function redirectToTicketsPage1() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'shop.html';
+    }
+    function redirectToTicketsPage2() {
+        // Замените 'tickets.html' на URL вашей страницы с билетами
+        window.location.href = 'tour.html';
+    }
+    // Функция для переключения состояния dropdown-content
+    function toggleDropdown() {
+        event.preventDefault();
+        var dropdownContent = document.getElementById("dropdownContent");
+        var toggleButton = document.getElementById('toggleButton');
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            toggleButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            dropdownContent.style.display = "block";
+            toggleButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+
+    // Привязываем функцию к кнопке "a"
+    document.getElementById("toggleButton").addEventListener("click", toggleDropdown);
+
+
+
+
+    function toggleDropdown1() {
+        event.preventDefault();
+        var mediaDropdownContent = document.getElementById('mediaDropdownContent');
+        var toggleMediaButton = document.getElementById('toggleMediaButton');
+        if (mediaDropdownContent.style.display === 'block') {
+            mediaDropdownContent.style.display = 'none';
+            toggleMediaButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            mediaDropdownContent.style.display = 'block';
+            toggleMediaButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+    document.getElementById("toggleMediaButton").addEventListener("click", toggleDropdown1);
+
+
+
+
+
+    function toggleDropdown2() {
+        event.preventDefault();
+        var contactsDropdownContent = document.getElementById('contactsDropdownContent');
+        var toggleContactsButton = document.getElementById('toggleContactsButton');
+        if (contactsDropdownContent.style.display === 'block') {
+            contactsDropdownContent.style.display = 'none';
+            toggleContactsButton.classList.remove('rotate'); // Удаляем класс для возврата кнопки в исходное состояние
+        } else {
+            contactsDropdownContent.style.display = 'block';
+            toggleContactsButton.classList.add('rotate'); // Добавляем класс для вращения кнопки
+        }
+    }
+    document.getElementById("toggleContactsButton").addEventListener("click", toggleDropdown2);
+    
+
+
+
+    
+    // Получаем ссылку на кнопку
+    var button = document.getElementById("changeTextButton");
+  
+    // Функция, которая будет вызываться при нажатии на кнопку
+    function changeText() {
+      if (button.innerText === "ENG") {
+        button.innerText = "RUS";
+      } else {
+        button.innerText = "ENG";
+      }
+    }
+  
+    // Добавляем обработчик события на кнопку
+    button.addEventListener("click", changeText);
+  </script>
+
+</body>
+</html>

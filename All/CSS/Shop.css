@@ -1,0 +1,1496 @@
+.rounded-corners {
+    z-index: 150;
+      position: absolute;
+      top: 120px;
+      left: 520px;
+      width: 537px;
+      height: 385px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .rounded-corners1 {
+      position: absolute;
+      top: 520px;
+      left: 522px;
+      width: 313px;
+      height: 174px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .rounded-corners2 {
+      position: absolute;
+      top: 520px;
+      left: 856px;
+      width: 313px;
+      height: 174px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .rounded-corners3 {
+      position: absolute;
+      top: 520px;
+      left: 1190px;
+      width: 313px;
+      height: 174px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .rounded-corners4 {
+      position: absolute;
+      top: 737px;
+      left: 522px;
+      width: 313px;
+      height: 303px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .rounded-corners5 {
+      position: absolute;
+      top: 737px;
+      left: 856px;
+      width: 313px;
+      height: 303px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .rounded-corners6 {
+      position: absolute;
+      top: 737px;
+      left: 1190px;
+      width: 313px;
+      height: 298px;
+      border-radius: 38px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  
+  
+    .red-rectangle {
+      position: absolute;
+      top: 1100px;
+      width: 1910px; /* Ширина прямоугольника */
+      height: 100px; /* Высота прямоугольника */
+      background-color: red; /* Цвет фона */
+      height: 400px;
+    }
+  
+    .VS{
+      position: absolute;
+      top: 1250px;
+      left: 950px;
+     bottom: 100px;
+    }
+  
+  
+    .containermap{
+      position: absolute;
+      top: 1400px;
+      left: 600px;
+      max-width: 1000px;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    .iframe{
+      position: absolute;
+      width:1000px;
+      height: 1200vh;
+    }
+  
+  
+  .Matchstars{
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    top: 120px;
+  left: 1100px;
+    font-size: 16px;
+  }
+  
+  .Matchstars1{
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    top: 250px;
+  left: 1100px;
+    font-size: 7px;
+  }
+  .Matchstars2{
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    top: 265px;
+  left: 1100px;
+    font-size: 7px;
+  }
+  .Matchstars3{
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    top: 280px;
+  left: 1100px;
+    font-size: 7px;
+  }
+  .Matchstars4{
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    top: 295px;
+  left: 1100px;
+    font-size: 7px;
+  }
+  
+  .Matchstars5{
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    top: 310px;
+  left: 1100px;
+    font-size: 7px;
+  }
+  
+    .textpartner-container{
+      position: absolute;
+      z-index: 100;
+      font-size: 10px;
+      color: rgb(255, 255, 255);
+      top: 2550px;
+      left: 895px;
+  }
+  
+  .black-square {
+      position: absolute;
+      top: 2500px;
+      width: 1900px;
+      height: 1000px;
+      background-color: black;
+    }
+    .blue-square {
+      position: absolute;
+      top: 120px;
+      left: 522px;
+      width: 980px;
+      height: 385px;
+      background-color: #effbfeea;
+      border-radius: 38px;
+  
+    }
+    .white1-line{
+      
+      position: absolute;
+      top: 2800px;
+      color: white ;
+      border-top: 1px solid rgb(255, 255, 255); /* Толщина линии, стиль и цвет */
+      width: 100%; /* Ширина линии */
+      margin: 0 auto; /* Выравнивание по центру */
+      opacity: 0.6; /* Степень прозрачности */
+    }
+  
+  
+  
+  
+  .partner1{
+    z-index: 102;
+    position: absolute;
+    top: 2650px;
+    left: 800px;
+    width: 15%;
+    height: 10%;
+  }
+  
+  
+  
+    .TextDown1{
+    color: white;
+      position: absolute;
+      top: 2940px;
+      font-size: 7px;
+      opacity: 0.6; /* Степень прозрачности */
+    }
+  .TextDown17{
+    color: white;
+    position: absolute;
+    top: 2960px;
+    font-size: 7px;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  .TextDown18{
+    color: white;
+    position: absolute;
+    top: 2980px;
+    font-size: 7px;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  
+  
+    .TextDown2{
+      color: white;
+        position: absolute;
+        top: 3020px;
+        font-size: 7px;
+        opacity: 0.6; /* Степень прозрачности */
+      }
+      .TextDown3{
+          color: white;
+            position: absolute;
+            top: 3040px;
+            font-size: 7px;
+            opacity: 0.6; /* Степень прозрачности */
+          }
+          .TextDown4{
+              color: white;
+                position: absolute;
+                top: 2835px;
+                left: 900px;
+                font-size: 12px;
+                cursor: pointer;
+                opacity: 0.6; /* Степень прозрачности */
+              }
+              .TextDown4:hover {color: #ff0000;animation: 5s }
+   .TextDown5{
+    color: white;
+    position: absolute;
+    top: 2835px;
+    left: 1100px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.6; /* Степень прозрачности */
+  }
+  .TextDown5:hover {color: #ff0000;animation: 5s }
+  .TextDown6{
+    color: white;
+    position: absolute;
+    top: 2835px;
+    left: 1300px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.6; /* Степень прозрачности */
+  
+      }
+      .TextDown6:hover {color: #ff0000;animation: 5s }
+      .TextDown7{
+        color: white;
+        position: absolute;
+        top: 2835px;
+        left: 1500px;
+        font-size: 12px;
+        cursor: pointer;
+        opacity: 0.6; /* Степень прозрачности */
+          }    
+          .TextDown7:hover {color: #ff0000;animation: 5s }
+          .TextDown8{
+              color: white;
+              position: absolute;
+              top: 2900px;
+              left: 1100px;
+              font-size: 8px;
+              cursor: pointer;
+              opacity: 0.6; /* Степень прозрачности */
+              }        
+              .TextDown8:hover {color: #ff0000;animation: 5s }
+              .TextDown9{
+                  color: white;
+                  position: absolute;
+                  top: 2925px;
+                  left: 1100px;
+                  font-size: 8px;
+                  cursor: pointer;
+                  opacity: 0.6; /* Степень прозрачности */
+                  }    
+                  .TextDown9:hover {color: #ff0000;animation: 5s }
+                  .TextDown10{
+                      color: white;
+                      position: absolute;
+                      top: 2950px;
+                      left: 1100px;
+                      font-size: 8px;
+                      cursor: pointer;
+                      opacity: 0.6; /* Степень прозрачности */
+                      }  
+                      .TextDown10:hover {color: #ff0000;animation: 5s }
+                      .TextDown11{
+                          color: white;
+                          position: absolute;
+                          top: 2975px;
+                          left: 1100px;
+                          font-size: 8px;
+                          cursor: pointer;
+                          opacity: 0.6; /* Степень прозрачности */
+                          }     
+                          .TextDown11:hover {color: #ff0000;animation: 5s } 
+                          .TextDown12{
+                              color: white;
+                              position: absolute;
+                              top: 3000px;
+                              left: 1100px;
+                              font-size: 8px;
+                              cursor: pointer;
+                              opacity: 0.6; /* Степень прозрачности */
+                              }    
+                              .TextDown12:hover {color: #ff0000;animation: 5s }
+                              .TextDown13{
+                                  color: white;
+                                  position: absolute;
+                                  top: 3025px;
+                                  left: 1100px;
+                                  font-size: 8px;
+                                  cursor: pointer;
+                                  opacity: 0.6; /* Степень прозрачности */
+                                  }   
+                                  .TextDown13:hover {color: #ff0000;animation: 5s }
+                                  .TextDown14{
+                                      color: white;
+                                      position: absolute;
+                                      top: 3050px;
+                                      left: 1100px;
+                                      font-size: 8px;
+                                      cursor: pointer;
+                                      opacity: 0.6; /* Степень прозрачности */
+                                      }   
+                                      .TextDown14:hover {color: #ff0000;animation: 5s }
+  .TextDown15{
+    color: white;
+    position: absolute;
+    top: 2898px;
+    left: 1300px;
+    font-size: 8px;
+    cursor: pointer;
+    opacity: 0.6; /* Степень прозрачности */
+              }          
+              .TextDown15:hover {color: #ff0000;animation: 5s }  
+              .TextDown16{
+                color: white;
+                position: absolute;
+                top: 2925px;
+                left: 1300px;
+                font-size: 8px;
+                cursor: pointer;
+                opacity: 0.6; /* Степень прозрачности */
+                  }       
+  
+  .TextDown16:hover {color: #ff0000;animation: 5s }
+  
+  .Enisey{
+    z-index: 140;
+    position: absolute;
+   
+    top: 2860px;
+    width: 100px;
+    height: 60px;
+  }
+  .Enisey1{
+    z-index: 140;
+    position: absolute;
+   left: 700px;
+    top: 1250px;
+    width: 150px;
+    height: 90px;
+  }
+  .Baikal1{
+    z-index: 140;
+    position: absolute;
+   left: 1150px;
+    top: 1250px;
+    width: 150px;
+    height: 90px;
+  }
+  
+  
+  
+  .blue-button {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 38px; /* Скругленные углы */
+    transition: background-color 0.3s ease; /* Анимация перехода цвета фона */
+    top: 1350px;
+    left: 930px;
+  }
+  
+  .blue-button:hover {
+    background-color: #0056b3; /* Цвет при наведении */
+  }
+  
+  .blue-button:active {
+    background-color: #003080; /* Цвет при нажатии */
+  }
+
+  .TextOsnova1 {
+    position: absolute;
+    width: 1500px; /* Ширина контейнера */
+    top: 115px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+   .TextOsnova2 {
+    position: absolute;
+    width: 900px; /* Ширина контейнера */
+    top: 325px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .TextOsnova3 {
+    position: absolute;
+    width: 900px; /* Ширина контейнера */
+    top: 695px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .TextOsnova4 {
+    position: absolute;
+    width: 1500px; /* Ширина контейнера */
+    top: 815px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .TextOsnova5 {
+    position: absolute;
+    width: 1500px; /* Ширина контейнера */
+    top: 975px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .TextOsnova6 {
+    position: absolute;
+    width: 1500px; /* Ширина контейнера */
+    top: 1075px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .TextOsnova7 {
+    position: absolute;
+    width: 1500px; /* Ширина контейнера */
+    top: 1195px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .TextOsnova8 {
+    position: absolute;
+    width: 1500px; /* Ширина контейнера */
+    top: 1335px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 300px ;
+    font-size: 20px;
+  }
+  .Enisey1980{
+    position: absolute;
+    top: 350px;
+    left: 1200px;
+    width: 600px;
+    height: 400px;
+  }
+
+
+
+.veteran1{
+    position: absolute;
+    left: 1080px;
+    bottom: 80px;
+    width: 250px;
+    height: 250px;
+    z-index: 15;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.veteran2{
+    position: absolute;
+    left: 550px;
+    bottom:270px;
+    cursor: pointer;
+}.veteran3{
+    position: absolute;
+    left: 550px;
+    bottom: 80px;
+    width: 250px;
+    height: 250px;
+    z-index: 16;
+    border-radius: 40px;
+    cursor: pointer;
+}.veteran4{
+    position: absolute;
+    left: 815px;
+    bottom: 80px;
+    width: 250px;
+    height: 250px;
+    z-index: 15;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.win{
+    position: absolute;
+    z-index: 99;
+    font-size: 20px;
+    left: 625px;
+    top: 555px;
+    font-weight: bold;
+}
+.TextOsnova1{
+    position: absolute;
+    width: 200px; /* Ширина контейнера */
+    top: 885px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 550px ;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.TextOsnova2{
+    position: absolute;
+    width: 250px; /* Ширина контейнера */
+    top: 935px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 550px;
+    font-size: 12px;
+
+}.TextOsnova3{
+    position: absolute;
+    width: 250px; /* Ширина контейнера */
+    top: 885px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 1085px;
+    font-size: 16px;
+    font-weight: bold;
+}.TextOsnova4{
+    position: absolute;
+    width: 250px; /* Ширина контейнера */
+    top: 935px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 1085px ;
+    font-size: 12px;
+ 
+}
+.TextOsnova5{
+    position: absolute;
+    width: 250px;
+    top: 885px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 815px;
+    font-size: 16px;
+    font-weight: bold;
+}.TextOsnova6{
+    position: absolute;
+    width: 250px;
+    top: 935px;
+    word-wrap: break-word; /* Разрешаем перенос длинных слов */
+    left: 815px;
+    font-size: 12px;
+   
+ 
+}
+.container{
+  position: absolute;
+  left: 220px;
+  width: 20px;
+  height: 20px;
+}
+.image{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 20px;
+  height: 20px;
+}
+.image img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 300px;
+  height: 220px;
+}
+.info{
+  position: absolute;
+ left: 125px; 
+ height: 40px;
+ width: 200px;
+
+}
+
+.add-to-cart{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.container1{
+  position: absolute;
+  left: 450px;
+  width: 20px;
+  height: 20px;
+
+}
+.image1{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 20px;
+  height: 20px;
+}
+.image1 img {
+  position: absolute;
+ left: 110px;
+  right: 60px;
+  top: -160px;
+  width: 160px;
+  height: 195px;
+}
+.info1{
+  position: absolute;
+ left: 125px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart1{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+.container2{
+  position: absolute;
+  left: 670px;
+  width: 20px;
+  height: 20px;
+
+}
+.image2{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 20px;
+  height: 20px;
+}
+.image2 img {
+  position: absolute;
+ left: 110px;
+  right: 60px;
+  top: -160px;
+  width: 160px;
+  height: 195px;
+}
+.info2{
+  position: absolute;
+ left: 125px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart2{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+.container3{
+  position: absolute;
+  left: 890px;
+  width: 20px;
+  height: 20px;
+
+}
+.image3{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 20px;
+  height: 20px;
+}
+.image3 img {
+  position: absolute;
+ left: 110px;
+  right: 60px;
+  top: -160px;
+  width: 160px;
+  height: 195px;
+}
+.info3{
+  position: absolute;
+ left: 125px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart3{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+
+.container4{
+  position: absolute;
+  left: 1120px;
+  width: 20px;
+  height: 20px;
+
+}
+.image4{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 20px;
+  height: 20px;
+}
+.image4 img {
+  position: absolute;
+ left: 110px;
+  right: 60px;
+  top: -160px;
+  width: 160px;
+  height: 195px;
+}
+.info4{
+  position: absolute;
+ left: 125px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart4{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.container5{
+  position: absolute;
+  left: 220px;
+  width: 20px;
+  height: 20px;
+  top: 600px;
+}
+.image5{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image5 img {
+  position: absolute;
+ left: 120px;
+  right: 60px;
+  top: -170px;
+  width: 100px;
+  height: 190px;
+}
+.info5{
+  position: absolute;
+ left: 125px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart5{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.container6{
+  position: absolute;
+  left: 510px;
+  width: 20px;
+  height: 20px;
+  top: 600px;
+}
+.image6{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image6 img {
+  position: absolute;
+ left: 80px;
+  right: 60px;
+  top: -170px;
+  width: 110px;
+  height: 190px;
+}
+.info6{
+  position: absolute;
+ left: 65px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart6{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+.container7{
+  position: absolute;
+  left: 730px;
+  width: 20px;
+  height: 20px;
+  top: 600px;
+}
+.image7{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image7 img {
+  position: absolute;
+ left: 60px;
+  right: 60px;
+  top: -170px;
+  width: 150px;
+  height: 200px;
+}
+.info7{
+  position: absolute;
+ left: 65px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart7{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.container8{
+  position: absolute;
+  left: 950px;
+  width: 20px;
+  height: 20px;
+  top: 600px;
+}
+.image8{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image8 img {
+  position: absolute;
+ left: 70px;
+  right: 60px;
+  top: -170px;
+  width: 130px;
+  height: 160px;
+}
+.info8{
+  position: absolute;
+ left: 80px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart8{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+.container9{
+  position: absolute;
+  left: 1170px;
+  width: 20px;
+  height: 20px;
+  top: 600px;
+}
+.image9{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image9 img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 170px;
+  height: 200px;
+}
+.info9{
+  position: absolute;
+ left: 85px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart9{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+.container10{
+  position: absolute;
+  left: 280px;
+  width: 20px;
+  height: 20px;
+  top: 950px;
+}
+.image10{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image10 img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 170px;
+  height: 200px;
+}
+.info10{
+  position: absolute;
+ left: 65px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart10{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.container11{
+  position: absolute;
+  left: 520px;
+  width: 20px;
+  height: 20px;
+  top: 950px;
+}
+.image11{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image11 img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 170px;
+  height: 210px;
+}
+.info11{
+  position: absolute;
+ left: 60px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart11{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.container12{
+  position: absolute;
+  left: 745px;
+  width: 20px;
+  height: 20px;
+  top: 950px;
+}
+.image12{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image12 img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 145px;
+  height: 190px;
+}
+.info12{
+  position: absolute;
+ left: 55px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart12{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.container13{
+  position: absolute;
+  left: 945px;
+  width: 20px;
+  height: 20px;
+  top: 950px;
+}
+.image13{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image13 img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 150px;
+  height: 140px;
+}
+.info13{
+  position: absolute;
+ left: 90px; 
+ height: 40px;
+ width: 200px;
+
+}
+.add-to-cart13{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.container14{
+  position: absolute;
+  left: 1180px;
+  width: 20px;
+  height: 20px;
+  top: 950px;
+  
+}
+.image14{
+  position: static;
+ left: 50px;
+  right: 60px;
+  top: -100px;
+  width: 20px;
+  height: 20px;
+}
+.image14 img {
+  position: absolute;
+ left: 50px;
+  right: 60px;
+  top: -170px;
+  width: 170px;
+  height: 150px;
+}
+.info14{
+  position: absolute;
+ left: 85px; 
+ height: 40px;
+ width: 200px;
+}
+
+.add-to-cart14{
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  
+}
+
+
+
+
+.container15 {
+  position: absolute;
+  
+  margin-top: 50px;
+  left: 850px;
+  top: 35px;
+}
+
+.large-icon {
+  font-size: 35px; /* Установите желаемый размер иконки */
+  cursor: pointer;
+  text-align: center; 
+  left: 160px;
+bottom: 60px;
+  position: absolute;
+}
+.cart-count {
+  
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  left: 1030px;
+  width: 5px;
+  font-size: 12px;
+  top: -15px;
+  right: -10px;
+  border-radius: 10px;
+  text-align: center; 
+  z-index: 100;
+}
+.x {
+  filter: grayscale(1);
+  border: none;
+  background: none;
+  position: absolute;
+  top: 15px;
+  max-width: 30px;
+  right: 10px;
+  left: 850px;
+  transition: ease filter, transform 0.3s;
+  cursor: pointer;
+  
+  transform-origin: center;
+  &:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+
+}
+.x1 {
+  filter: grayscale(1);
+  border: none;
+  background: none;
+  position: absolute;
+  top: 15px;
+  max-width: 30px;
+  right: 10px;
+  left: 390px;
+  transition: ease filter, transform 0.3s;
+  cursor: pointer;
+  
+  transform-origin: center;
+  &:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+
+}
+
+.ТекстСверху{
+  position: relative;
+  font-size: 12px;
+  top: 60px;
+  left: 145px;
+}
+.email{
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  left: 14px;
+}
+.emailtext{
+  position: relative;
+  top: 15px;
+  left: 13px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 372px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+
+.Имя{
+  position: relative;
+  top: 145px;
+  font-size: 12px;
+  left: 14px;
+}
+.Имя1{
+  position: relative;
+  top: 150px;
+  left: 13px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 372px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+.card{
+  position: relative;
+  top:-10px;
+  font-size: 12px;
+  left: 14px;
+}
+.cardtext{
+  position: relative;
+  top: -5px;
+  left: 13px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 372px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+.cardtext1{
+  position: relative;
+  top: -6px;
+  left: 13px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 184px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+.cardtext2{
+  position: relative;
+  top: -40px;
+  left: 201px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 184px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+
+
+.submit{
+  font-size: 18px;
+  position: relative;
+  left: 13px;
+  top: 65px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00766c;
+  color: white;
+  width: 380px;
+  height: 40px;
+}
+
+
+
+
+.name{
+  position: relative;
+  top: 120px;
+}
+
+
+.Country{
+  position: relative;
+  top: 55px;
+  font-size: 12px;
+  left: 14px;
+}
+.Countrytext{
+  position: relative;
+  top: 60px;
+  left: 13px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 372px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+.Countrytext1{
+  position: relative;
+  top: 60px;
+  left: 13px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 30px;
+  width: 372px;
+  border: 0.1px solid rgb(71, 71, 71);
+  opacity: 0.2;
+}
+
+.Gpay{
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  max-width: 300px;
+  max-height: 100px;
+  cursor: pointer;
+}
+
+.myModal{
+  width: 1500px;
+  height: 200px;
+}
+.modal{
+  width: 400px;
+  height: 510px;
+}
+.ЛеваяЛинияСверху {
+  position: relative;
+  border-top: 1px solid black;
+  width: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+left: 14px;
+top: 32px;
+}
+.ПраваяЛинияСверху{
+  position: relative;
+  border-top: 1px solid black;
+  width: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+left: 263px;
+top: 12px;
+}
