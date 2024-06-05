@@ -1,0 +1,96 @@
+.Start{
+    position: absolute;
+    left: 870px;
+    top: 100px;
+}
+.Войти{
+    position: absolute;
+    left: 820px;
+    top: 450px;   
+    background-color: #00766c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 280px;
+    height: 70px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Логин {
+    position: absolute;
+    top: 230px;
+    font-size: 12px;
+    left: 750px;
+}
+.ЛогинТекст{
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    border-radius: 4px;
+    opacity: 0.5;
+    height: 30px;
+    width: 372px;
+    border: 0.1px solid rgb(71, 71, 71);
+    opacity: 0.2;  
+}
+
+.Пароль {
+    position: absolute;
+    top: 330px;
+    font-size: 12px;
+    left: 750px;
+}
+.Парольtext{
+    position: absolute;
+    top: 350px;
+    left: 750px;
+    border-radius: 4px;
+    opacity: 0.5;
+    height: 30px;
+    width: 372px;
+    border: 0.1px solid rgb(71, 71, 71);
+    opacity: 0.2;  
+}
+.Фио {
+    position: absolute;
+    top: 430px;
+    font-size: 12px;
+    left: 750px;
+}
+.Фио1{
+    position: absolute;
+    top: 450px;
+    left: 750px;
+    border-radius: 4px;
+    opacity: 0.5;
+    height: 30px;
+    width: 372px;
+    border: 0.1px solid rgb(71, 71, 71);
+    opacity: 0.2;  
+}
+.Телефон{
+    position: absolute;
+    top: 530px;
+    font-size: 12px;
+    left: 750px;
+}
+.Телефон1{
+    position: absolute;
+    top: 550px;
+    left: 750px;
+    border-radius: 4px;
+    opacity: 0.5;
+    height: 30px;
+    width: 372px;
+    border: 0.1px solid rgb(71, 71, 71);
+    opacity: 0.2;  
+}
+.ПереходРегистрация{
+    position: absolute;
+    left: 920px;
+    top: 525px;   
+    border: none;
+    border-radius: 5px;
+    font-size: 6px;
+    color: black;
+}

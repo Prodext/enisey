@@ -1,30 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Моя страница</title>
-  <style>
-    .background-image {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      background-size: cover;
-      background-position: center;
-      background-color: white;
-      opacity: 0.8;
-    }
-
-    .background-image img {
-      display: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="background-image" style="background-image: url('file:///C:/Users/kiril/Desktop/sds/ai/All/Photo/Болельщики.jpg');"></div>
-  <h1>Привет, мир!</h1>
-  <p>Это пример текста на странице с фоном.</p>
+    <button class="image-button">
+        <img src="C:\Users\kiril\Desktop\sds\ai\All\Photo\Регистрация.png" alt="Кнопка">
+    </button>
+
+    <!-- Модальное окно -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Это содержимое модального окна.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+<style>
+  .image-button {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<script>
+  // Получаем кнопку и модальное окно
+var btn = document.querySelector('.image-button');
+var modal = document.getElementById('myModal');
+var span = document.getElementsByClassName('close')[0];
+
+// Открываем модальное окно при клике на кнопку
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// Закрываем модальное окно при клике на крестик
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Закрываем модальное окно при клике вне его контента
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 </html>

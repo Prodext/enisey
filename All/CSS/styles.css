@@ -169,7 +169,7 @@ body {
 
     font-family: 'Lato' !important;
     top: 10px;
-    left: 1845px;/* это перемещает поисковую кнопку */
+    left: 1810px;/* это перемещает поисковую кнопку */
   width: fit-content;
   height: fit-content;
   position: absolute;
@@ -321,7 +321,7 @@ z-index: 2;
 #changeTextButton {
     position: absolute;
     top: 12px;
-    left: 1840px;
+    left: 1800px;
     padding: 10px; /* Уменьшаем отступы внутри */
     margin: 0px;
     color: black;
@@ -331,3 +331,23 @@ z-index: 2;
     font-size: 20px;
     cursor: pointer;
   }
+.image-button{
+    position: absolute;
+    top: 5px;
+    left: 1855px;
+    padding: 10px; /* Уменьшаем отступы внутри */
+    margin: 0px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+   width: 20px;
+    height: 20px;
+}
+
+.image-button img {
+    width: 35px; /* Установите желаемый размер ширины */
+    height: auto; /* Высота будет автоматически подстраиваться под соотношение сторон */
+}
